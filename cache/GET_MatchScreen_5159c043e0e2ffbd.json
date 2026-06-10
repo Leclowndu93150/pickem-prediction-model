@@ -1,0 +1,4097 @@
+{
+  "_ts": 1781130623.3098562,
+  "_method": "GET",
+  "_path": "/MatchScreen",
+  "_params": {
+    "matchId": 2394266
+  },
+  "value": {
+    "matchData": {
+      "match": {
+        "matchId": "2394266",
+        "startDateTime": "2026-05-13T11:15:00Z",
+        "endDateTime": "2026-05-13T14:34:14Z",
+        "mapShort": "bo3",
+        "mapLong": "Best of 3",
+        "mapBackgroundUrl": "https://www.hltv.org/img/static/statsmatchmaps/all.png",
+        "stars": 0,
+        "preMatch": false,
+        "live": false,
+        "postMatch": true,
+        "minMaps": 2,
+        "team1": {
+          "teamId": "13735",
+          "name": "Haunted House",
+          "teamColor": "#7F7E81",
+          "avatar": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa"
+          }
+        },
+        "team2": {
+          "teamId": "13486",
+          "name": "THUNDER dOWNUNDER",
+          "teamColor": "#8B04FB",
+          "avatar": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/bSRhbVtvK3S64DVmh5XIgi.png?ixlib=java-2.1.0&w=500&s=cb8ce427b9d14f70c00977f44b5b5c52",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/bSRhbVtvK3S64DVmh5XIgi.png?ixlib=java-2.1.0&w=500&s=cb8ce427b9d14f70c00977f44b5b5c52"
+          }
+        },
+        "eventId": "8587",
+        "eventName": "Hero Esports Asian Champions League 2026",
+        "eventLogo": {
+          "svgOrPngUrl": "https://img-cdn.hltv.org/eventlogo/NtZKn7VQn02T-d1rhvr_dN.png?ixlib=java-2.1.0&w=500&s=01e86be043ba3a2af5c4c5a3d6e3ef3c",
+          "pngUrl": "https://img-cdn.hltv.org/eventlogo/NtZKn7VQn02T-d1rhvr_dN.png?ixlib=java-2.1.0&w=500&s=01e86be043ba3a2af5c4c5a3d6e3ef3c"
+        },
+        "placeholderText": null,
+        "team2PlaceholderText": null,
+        "matchResult": {
+          "team1Score": "1",
+          "team2Score": "2",
+          "winnerTeamId": "13486"
+        },
+        "odds": [],
+        "teamlogoPlaceholderUrl": {
+          "svgOrPngUrl": "https://www.hltv.org/dynamic-svg/teamplaceholder",
+          "pngUrl": "https://www.hltv.org/img/static/team/placeholder.png"
+        },
+        "isMajor": false
+      },
+      "scorebotUrls": [
+        "https://scorebot-lb.hltv.org"
+      ],
+      "postMatchPlayerStats": {
+        "team1Stats": [
+          {
+            "playerId": "23361",
+            "kills": 60,
+            "deaths": 50,
+            "adr": "81.9",
+            "kast": "68.5%",
+            "rating": "1.21",
+            "roundSwing": "+0.97%",
+            "versionedRating": {
+              "value": "1.21",
+              "version": "3.0"
+            },
+            "openingKills": 6,
+            "openingDeaths": 6,
+            "multiKills": 16,
+            "clutches": 2,
+            "headshots": 34,
+            "assists": 14,
+            "flashAssists": 6,
+            "traded": 8
+          },
+          {
+            "playerId": "25854",
+            "kills": 53,
+            "deaths": 51,
+            "adr": "79.7",
+            "kast": "69.9%",
+            "rating": "0.99",
+            "roundSwing": "-0.84%",
+            "versionedRating": {
+              "value": "0.99",
+              "version": "3.0"
+            },
+            "openingKills": 8,
+            "openingDeaths": 11,
+            "multiKills": 16,
+            "clutches": 0,
+            "headshots": 17,
+            "assists": 14,
+            "flashAssists": 1,
+            "traded": 7
+          },
+          {
+            "playerId": "22638",
+            "kills": 50,
+            "deaths": 59,
+            "adr": "75.8",
+            "kast": "71.2%",
+            "rating": "0.99",
+            "roundSwing": "-2.76%",
+            "versionedRating": {
+              "value": "0.99",
+              "version": "3.0"
+            },
+            "openingKills": 3,
+            "openingDeaths": 11,
+            "multiKills": 11,
+            "clutches": 0,
+            "headshots": 38,
+            "assists": 14,
+            "flashAssists": 3,
+            "traded": 15
+          },
+          {
+            "playerId": "20198",
+            "kills": 47,
+            "deaths": 53,
+            "adr": "68.9",
+            "kast": "71.2%",
+            "rating": "0.95",
+            "roundSwing": "-1.30%",
+            "versionedRating": {
+              "value": "0.95",
+              "version": "3.0"
+            },
+            "openingKills": 7,
+            "openingDeaths": 6,
+            "multiKills": 7,
+            "clutches": 3,
+            "headshots": 32,
+            "assists": 21,
+            "flashAssists": 6,
+            "traded": 8
+          },
+          {
+            "playerId": "18989",
+            "kills": 33,
+            "deaths": 57,
+            "adr": "55.1",
+            "kast": "65.8%",
+            "rating": "0.71",
+            "roundSwing": "-3.78%",
+            "versionedRating": {
+              "value": "0.71",
+              "version": "3.0"
+            },
+            "openingKills": 7,
+            "openingDeaths": 8,
+            "multiKills": 7,
+            "clutches": 0,
+            "headshots": 22,
+            "assists": 13,
+            "flashAssists": 0,
+            "traded": 8
+          }
+        ],
+        "team2Stats": [
+          {
+            "playerId": "18545",
+            "kills": 58,
+            "deaths": 49,
+            "adr": "83.2",
+            "kast": "75.3%",
+            "rating": "1.37",
+            "roundSwing": "+4.97%",
+            "versionedRating": {
+              "value": "1.37",
+              "version": "3.0"
+            },
+            "openingKills": 8,
+            "openingDeaths": 6,
+            "multiKills": 12,
+            "clutches": 2,
+            "headshots": 34,
+            "assists": 22,
+            "flashAssists": 3,
+            "traded": 12
+          },
+          {
+            "playerId": "9115",
+            "kills": 64,
+            "deaths": 52,
+            "adr": "93.8",
+            "kast": "76.7%",
+            "rating": "1.27",
+            "roundSwing": "+1.90%",
+            "versionedRating": {
+              "value": "1.27",
+              "version": "3.0"
+            },
+            "openingKills": 11,
+            "openingDeaths": 9,
+            "multiKills": 20,
+            "clutches": 1,
+            "headshots": 28,
+            "assists": 31,
+            "flashAssists": 4,
+            "traded": 16
+          },
+          {
+            "playerId": "10588",
+            "kills": 53,
+            "deaths": 45,
+            "adr": "81.6",
+            "kast": "69.9%",
+            "rating": "1.19",
+            "roundSwing": "+2.16%",
+            "versionedRating": {
+              "value": "1.19",
+              "version": "3.0"
+            },
+            "openingKills": 2,
+            "openingDeaths": 3,
+            "multiKills": 15,
+            "clutches": 2,
+            "headshots": 26,
+            "assists": 20,
+            "flashAssists": 4,
+            "traded": 5
+          },
+          {
+            "playerId": "11139",
+            "kills": 55,
+            "deaths": 49,
+            "adr": "71.2",
+            "kast": "69.9%",
+            "rating": "1.04",
+            "roundSwing": "+1.12%",
+            "versionedRating": {
+              "value": "1.04",
+              "version": "3.0"
+            },
+            "openingKills": 14,
+            "openingDeaths": 5,
+            "multiKills": 11,
+            "clutches": 1,
+            "headshots": 16,
+            "assists": 10,
+            "flashAssists": 4,
+            "traded": 10
+          },
+          {
+            "playerId": "20527",
+            "kills": 39,
+            "deaths": 50,
+            "adr": "58.0",
+            "kast": "69.9%",
+            "rating": "0.79",
+            "roundSwing": "-2.85%",
+            "versionedRating": {
+              "value": "0.79",
+              "version": "3.0"
+            },
+            "openingKills": 7,
+            "openingDeaths": 8,
+            "multiKills": 6,
+            "clutches": 1,
+            "headshots": 21,
+            "assists": 16,
+            "flashAssists": 3,
+            "traded": 10
+          }
+        ]
+      },
+      "postMatchTeamStats": {
+        "team1Stats": {
+          "flashAssists": 16,
+          "openingKills": 31,
+          "multiKills": 57,
+          "clutches": 5,
+          "pistolRounds": 1
+        },
+        "team2Stats": {
+          "flashAssists": 18,
+          "openingKills": 42,
+          "multiKills": 64,
+          "clutches": 7,
+          "pistolRounds": 5
+        }
+      },
+      "expectedLineups": {
+        "team1PlayerIds": [
+          "18989",
+          "20198",
+          "22638",
+          "23361",
+          "25854"
+        ],
+        "team2PlayerIds": [
+          "10588",
+          "9115",
+          "11139",
+          "18545",
+          "20527"
+        ]
+      },
+      "expectedLineupData": {
+        "team1PlayerIds": [
+          {
+            "playerId": "18989",
+            "nick": "fr0k",
+            "name": "Ruslan Gizatov",
+            "playerImageUrl": {
+              "svgOrPngUrl": "https://img-cdn.hltv.org/playerbodyshot/pgljNmmYJD_NjLKbRCynDD.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=124%2C8%2C467%2C467&w=800&s=567bcb5a519ae721a1c8c15bf60b9807",
+              "pngUrl": "https://img-cdn.hltv.org/playerbodyshot/pgljNmmYJD_NjLKbRCynDD.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=124%2C8%2C467%2C467&w=800&s=567bcb5a519ae721a1c8c15bf60b9807"
+            },
+            "playerBodyShotImageUrl": "https://img-cdn.hltv.org/playerbodyshot/pgljNmmYJD_NjLKbRCynDD.png?ixlib=java-2.1.0&w=400&s=44124368d6a4fb66c60e4479a3714553",
+            "ratingPast3Months": {
+              "value": "0.98",
+              "version": "3.0"
+            }
+          },
+          {
+            "playerId": "20198",
+            "nick": "SasukeQO",
+            "name": "Nikolay Zhukov",
+            "playerImageUrl": {
+              "svgOrPngUrl": "https://img-cdn.hltv.org/playerbodyshot/Khii09MxMFpgEQl7--92_N.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=121%2C12%2C478%2C478&w=800&s=b93f3b580586ca3ba88b3c0696fbe853",
+              "pngUrl": "https://img-cdn.hltv.org/playerbodyshot/Khii09MxMFpgEQl7--92_N.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=121%2C12%2C478%2C478&w=800&s=b93f3b580586ca3ba88b3c0696fbe853"
+            },
+            "playerBodyShotImageUrl": "https://img-cdn.hltv.org/playerbodyshot/Khii09MxMFpgEQl7--92_N.png?ixlib=java-2.1.0&w=400&s=7f96c695bcb7890689cd236a9ed9e7c5",
+            "ratingPast3Months": {
+              "value": "1.07",
+              "version": "3.0"
+            }
+          },
+          {
+            "playerId": "22638",
+            "nick": "icyvl0ne",
+            "name": "Daniel Lee",
+            "playerImageUrl": {
+              "svgOrPngUrl": "https://img-cdn.hltv.org/playerbodyshot/ZToHpJCifLIHJWRnrLmnZi.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=124%2C8%2C467%2C467&w=800&s=9d6097e28eb3652b48acb68616804bc5",
+              "pngUrl": "https://img-cdn.hltv.org/playerbodyshot/ZToHpJCifLIHJWRnrLmnZi.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=124%2C8%2C467%2C467&w=800&s=9d6097e28eb3652b48acb68616804bc5"
+            },
+            "playerBodyShotImageUrl": "https://img-cdn.hltv.org/playerbodyshot/ZToHpJCifLIHJWRnrLmnZi.png?ixlib=java-2.1.0&w=400&s=e637d2cc8ff064bcf03e1e5bf974be22",
+            "ratingPast3Months": {
+              "value": "0.94",
+              "version": "3.0"
+            }
+          },
+          {
+            "playerId": "23361",
+            "nick": "malinov",
+            "name": "Danil Mutav",
+            "playerImageUrl": {
+              "svgOrPngUrl": "https://img-cdn.hltv.org/playerbodyshot/Qjte8fU3Q-21YNbWvxUiI6.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=121%2C8%2C467%2C467&w=800&s=c9dc9dae16509bb2b374e5907236a113",
+              "pngUrl": "https://img-cdn.hltv.org/playerbodyshot/Qjte8fU3Q-21YNbWvxUiI6.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=121%2C8%2C467%2C467&w=800&s=c9dc9dae16509bb2b374e5907236a113"
+            },
+            "playerBodyShotImageUrl": "https://img-cdn.hltv.org/playerbodyshot/Qjte8fU3Q-21YNbWvxUiI6.png?ixlib=java-2.1.0&w=400&s=275d39685e2e67021cc3ef871780b702",
+            "ratingPast3Months": {
+              "value": "1.06",
+              "version": "3.0"
+            }
+          },
+          {
+            "playerId": "25854",
+            "nick": "Schwarzkopf",
+            "name": "Bakhtiyer Ismatillaev ",
+            "playerImageUrl": {
+              "svgOrPngUrl": "https://www.hltv.org/img/static/player/blankplayer.svg",
+              "pngUrl": "https://www.hltv.org/img/static/player/blankplayer.png"
+            },
+            "playerBodyShotImageUrl": "https://www.hltv.org/img/static/player/player_silhouette.png",
+            "ratingPast3Months": {
+              "value": "0.95",
+              "version": "3.0"
+            }
+          }
+        ],
+        "team2PlayerIds": [
+          {
+            "playerId": "10588",
+            "nick": "Liazz",
+            "name": "Jay Tregillgas",
+            "playerImageUrl": {
+              "svgOrPngUrl": "https://img-cdn.hltv.org/playerbodyshot/b5gn_IRg31fpDeBLH9R5B1.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=117%2C4%2C482%2C482&w=800&s=4eacb7b326718f8987f17515376fd0f8",
+              "pngUrl": "https://img-cdn.hltv.org/playerbodyshot/b5gn_IRg31fpDeBLH9R5B1.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=117%2C4%2C482%2C482&w=800&s=4eacb7b326718f8987f17515376fd0f8"
+            },
+            "playerBodyShotImageUrl": "https://img-cdn.hltv.org/playerbodyshot/b5gn_IRg31fpDeBLH9R5B1.png?ixlib=java-2.1.0&w=400&s=8709985a7bac9c0079684a3299e3b6dd",
+            "ratingPast3Months": {
+              "value": "1.12",
+              "version": "3.0"
+            }
+          },
+          {
+            "playerId": "9115",
+            "nick": "dexter",
+            "name": "Christopher Nong",
+            "playerImageUrl": {
+              "svgOrPngUrl": "https://img-cdn.hltv.org/playerbodyshot/LQOwi8lgg9rUj7l3BQqcPq.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=121%2C0%2C467%2C467&w=800&s=d964c8836919c8f74c58d00269ff1403",
+              "pngUrl": "https://img-cdn.hltv.org/playerbodyshot/LQOwi8lgg9rUj7l3BQqcPq.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=121%2C0%2C467%2C467&w=800&s=d964c8836919c8f74c58d00269ff1403"
+            },
+            "playerBodyShotImageUrl": "https://img-cdn.hltv.org/playerbodyshot/LQOwi8lgg9rUj7l3BQqcPq.png?ixlib=java-2.1.0&w=400&s=ee537361781d0e3b7ef9f3a3e71fe170",
+            "ratingPast3Months": {
+              "value": "0.96",
+              "version": "3.0"
+            }
+          },
+          {
+            "playerId": "11139",
+            "nick": "aliStair",
+            "name": "Alistair Johnston",
+            "playerImageUrl": {
+              "svgOrPngUrl": "https://img-cdn.hltv.org/playerbodyshot/9sRVowyhu_J0DuQvvtz44T.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=121%2C0%2C467%2C467&w=800&s=cca34ed71ee60826f0ae71de77ec813c",
+              "pngUrl": "https://img-cdn.hltv.org/playerbodyshot/9sRVowyhu_J0DuQvvtz44T.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=121%2C0%2C467%2C467&w=800&s=cca34ed71ee60826f0ae71de77ec813c"
+            },
+            "playerBodyShotImageUrl": "https://img-cdn.hltv.org/playerbodyshot/9sRVowyhu_J0DuQvvtz44T.png?ixlib=java-2.1.0&w=400&s=ec54994c56306adbade311d8b6d1ca84",
+            "ratingPast3Months": {
+              "value": "1.16",
+              "version": "3.0"
+            }
+          },
+          {
+            "playerId": "18545",
+            "nick": "asap",
+            "name": "Tyson Paterson",
+            "playerImageUrl": {
+              "svgOrPngUrl": "https://img-cdn.hltv.org/gallerypicture/zYwLywUeOCnbE744FEk0Bj.jpg?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=2335%2C41%2C5297%2C5297&w=800&s=81b923ab84839310c0aa8445bb378db4",
+              "pngUrl": "https://img-cdn.hltv.org/gallerypicture/zYwLywUeOCnbE744FEk0Bj.jpg?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=2335%2C41%2C5297%2C5297&w=800&s=81b923ab84839310c0aa8445bb378db4"
+            },
+            "playerBodyShotImageUrl": null,
+            "ratingPast3Months": {
+              "value": "1.24",
+              "version": "3.0"
+            }
+          },
+          {
+            "playerId": "20527",
+            "nick": "TjP",
+            "name": "Tynan Purtell",
+            "playerImageUrl": {
+              "svgOrPngUrl": "https://img-cdn.hltv.org/gallerypicture/hAjNJKLIhJEtBbhcU_kS53.jpg?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=3331%2C82%2C3809%2C3809&w=800&s=8ec741b477cfc422adc7823938474f8c",
+              "pngUrl": "https://img-cdn.hltv.org/gallerypicture/hAjNJKLIhJEtBbhcU_kS53.jpg?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=3331%2C82%2C3809%2C3809&w=800&s=8ec741b477cfc422adc7823938474f8c"
+            },
+            "playerBodyShotImageUrl": null,
+            "ratingPast3Months": {
+              "value": "1.00",
+              "version": "3.0"
+            }
+          }
+        ]
+      },
+      "mapStats": [
+        {
+          "mapInfo": {
+            "mapId": 48,
+            "mapName": "Anubis",
+            "mapBackgroundUrl": "https://www.hltv.org/img/static/maps/anubis.png",
+            "mapResult": {
+              "team1Score": "5",
+              "team2Score": "13",
+              "winnerTeamId": "13486",
+              "team1OvertimeScore": null,
+              "team2OvertimeScore": null,
+              "firstHalf": {
+                "team1Score": "4",
+                "team2Score": "8",
+                "team1Side": "T",
+                "team2Side": "CT"
+              },
+              "secondHalf": {
+                "team1Score": "1",
+                "team2Score": "5",
+                "team1Side": "CT",
+                "team2Side": "T"
+              },
+              "regulationRounds": [
+                {
+                  "team1Rounds": [
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "1-7",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/t_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/t_win.png"
+                      }
+                    },
+                    {
+                      "description": "2-7",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/bomb_exploded.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/bomb_exploded.png"
+                      }
+                    },
+                    {
+                      "description": "3-7",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/t_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/t_win.png"
+                      }
+                    },
+                    {
+                      "description": "4-7",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/bomb_exploded.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/bomb_exploded.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    }
+                  ],
+                  "team2Rounds": [
+                    {
+                      "description": "0-1",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "0-2",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/bomb_defused.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/bomb_defused.png"
+                      }
+                    },
+                    {
+                      "description": "0-3",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "0-4",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "0-5",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/stopwatch.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/stopwatch.png"
+                      }
+                    },
+                    {
+                      "description": "0-6",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/bomb_defused.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/bomb_defused.png"
+                      }
+                    },
+                    {
+                      "description": "0-7",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "4-8",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/bomb_defused.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/bomb_defused.png"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "team1Rounds": [
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "5-12",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    }
+                  ],
+                  "team2Rounds": [
+                    {
+                      "description": "4-9",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/t_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/t_win.png"
+                      }
+                    },
+                    {
+                      "description": "4-10",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/bomb_exploded.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/bomb_exploded.png"
+                      }
+                    },
+                    {
+                      "description": "4-11",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/t_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/t_win.png"
+                      }
+                    },
+                    {
+                      "description": "4-12",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/bomb_exploded.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/bomb_exploded.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "5-13",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/t_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/t_win.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "overtimeHalvesRounds": []
+            },
+            "pickedByTeamId": "13486"
+          },
+          "playerStats": {
+            "team1Stats": [
+              {
+                "playerId": "25854",
+                "kills": 13,
+                "deaths": 12,
+                "adr": "77.1",
+                "kast": "72.2%",
+                "rating": "1.19",
+                "roundSwing": "+0.07%",
+                "versionedRating": {
+                  "value": "1.19",
+                  "version": "3.0"
+                },
+                "openingKills": 4,
+                "openingDeaths": 1,
+                "multiKills": 3,
+                "clutches": 0,
+                "headshots": 5,
+                "assists": 2,
+                "flashAssists": 1,
+                "traded": 1
+              },
+              {
+                "playerId": "22638",
+                "kills": 13,
+                "deaths": 15,
+                "adr": "73.4",
+                "kast": "72.2%",
+                "rating": "1.00",
+                "roundSwing": "-5.25%",
+                "versionedRating": {
+                  "value": "1.00",
+                  "version": "3.0"
+                },
+                "openingKills": 0,
+                "openingDeaths": 3,
+                "multiKills": 2,
+                "clutches": 0,
+                "headshots": 10,
+                "assists": 0,
+                "flashAssists": 0,
+                "traded": 4
+              },
+              {
+                "playerId": "20198",
+                "kills": 11,
+                "deaths": 14,
+                "adr": "65.6",
+                "kast": "61.1%",
+                "rating": "0.88",
+                "roundSwing": "-4.27%",
+                "versionedRating": {
+                  "value": "0.88",
+                  "version": "3.0"
+                },
+                "openingKills": 2,
+                "openingDeaths": 2,
+                "multiKills": 1,
+                "clutches": 0,
+                "headshots": 10,
+                "assists": 2,
+                "flashAssists": 1,
+                "traded": 1
+              },
+              {
+                "playerId": "23361",
+                "kills": 10,
+                "deaths": 11,
+                "adr": "71.1",
+                "kast": "72.2%",
+                "rating": "0.86",
+                "roundSwing": "-4.99%",
+                "versionedRating": {
+                  "value": "0.86",
+                  "version": "3.0"
+                },
+                "openingKills": 0,
+                "openingDeaths": 3,
+                "multiKills": 3,
+                "clutches": 0,
+                "headshots": 7,
+                "assists": 1,
+                "flashAssists": 0,
+                "traded": 3
+              },
+              {
+                "playerId": "18989",
+                "kills": 7,
+                "deaths": 13,
+                "adr": "45.9",
+                "kast": "66.7%",
+                "rating": "0.72",
+                "roundSwing": "-3.84%",
+                "versionedRating": {
+                  "value": "0.72",
+                  "version": "3.0"
+                },
+                "openingKills": 1,
+                "openingDeaths": 2,
+                "multiKills": 1,
+                "clutches": 0,
+                "headshots": 4,
+                "assists": 1,
+                "flashAssists": 0,
+                "traded": 3
+              }
+            ],
+            "team2Stats": [
+              {
+                "playerId": "9115",
+                "kills": 16,
+                "deaths": 16,
+                "adr": "105.2",
+                "kast": "83.3%",
+                "rating": "1.53",
+                "roundSwing": "+7.73%",
+                "versionedRating": {
+                  "value": "1.53",
+                  "version": "3.0"
+                },
+                "openingKills": 4,
+                "openingDeaths": 1,
+                "multiKills": 4,
+                "clutches": 0,
+                "headshots": 6,
+                "assists": 8,
+                "flashAssists": 0,
+                "traded": 6
+              },
+              {
+                "playerId": "18545",
+                "kills": 13,
+                "deaths": 9,
+                "adr": "81.1",
+                "kast": "72.2%",
+                "rating": "1.49",
+                "roundSwing": "+7.41%",
+                "versionedRating": {
+                  "value": "1.49",
+                  "version": "3.0"
+                },
+                "openingKills": 0,
+                "openingDeaths": 2,
+                "multiKills": 3,
+                "clutches": 1,
+                "headshots": 7,
+                "assists": 5,
+                "flashAssists": 0,
+                "traded": 2
+              },
+              {
+                "playerId": "11139",
+                "kills": 15,
+                "deaths": 10,
+                "adr": "82.0",
+                "kast": "66.7%",
+                "rating": "1.26",
+                "roundSwing": "+3.84%",
+                "versionedRating": {
+                  "value": "1.26",
+                  "version": "3.0"
+                },
+                "openingKills": 4,
+                "openingDeaths": 2,
+                "multiKills": 4,
+                "clutches": 1,
+                "headshots": 5,
+                "assists": 2,
+                "flashAssists": 0,
+                "traded": 2
+              },
+              {
+                "playerId": "10588",
+                "kills": 12,
+                "deaths": 10,
+                "adr": "67.9",
+                "kast": "61.1%",
+                "rating": "1.04",
+                "roundSwing": "+1.29%",
+                "versionedRating": {
+                  "value": "1.04",
+                  "version": "3.0"
+                },
+                "openingKills": 1,
+                "openingDeaths": 0,
+                "multiKills": 2,
+                "clutches": 0,
+                "headshots": 5,
+                "assists": 2,
+                "flashAssists": 2,
+                "traded": 2
+              },
+              {
+                "playerId": "20527",
+                "kills": 9,
+                "deaths": 9,
+                "adr": "46.6",
+                "kast": "72.2%",
+                "rating": "0.73",
+                "roundSwing": "-2.01%",
+                "versionedRating": {
+                  "value": "0.73",
+                  "version": "3.0"
+                },
+                "openingKills": 2,
+                "openingDeaths": 2,
+                "multiKills": 1,
+                "clutches": 0,
+                "headshots": 7,
+                "assists": 1,
+                "flashAssists": 0,
+                "traded": 1
+              }
+            ]
+          },
+          "teamStats": {
+            "team1Stats": {
+              "flashAssists": 2,
+              "openingKills": 7,
+              "multiKills": 10,
+              "clutches": 0,
+              "pistolRounds": 0
+            },
+            "team2Stats": {
+              "flashAssists": 2,
+              "openingKills": 11,
+              "multiKills": 14,
+              "clutches": 2,
+              "pistolRounds": 2
+            }
+          }
+        },
+        {
+          "mapInfo": {
+            "mapId": 31,
+            "mapName": "Dust2",
+            "mapBackgroundUrl": "https://www.hltv.org/img/static/maps/dust2.png",
+            "mapResult": {
+              "team1Score": "19",
+              "team2Score": "17",
+              "winnerTeamId": "13735",
+              "team1OvertimeScore": "7",
+              "team2OvertimeScore": "5",
+              "firstHalf": {
+                "team1Score": "6",
+                "team2Score": "6",
+                "team1Side": "T",
+                "team2Side": "CT"
+              },
+              "secondHalf": {
+                "team1Score": "6",
+                "team2Score": "6",
+                "team1Side": "CT",
+                "team2Side": "T"
+              },
+              "regulationRounds": [
+                {
+                  "team1Rounds": [
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "1-3",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/bomb_exploded.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/bomb_exploded.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "2-4",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/t_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/t_win.png"
+                      }
+                    },
+                    {
+                      "description": "3-4",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/bomb_exploded.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/bomb_exploded.png"
+                      }
+                    },
+                    {
+                      "description": "4-4",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/bomb_exploded.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/bomb_exploded.png"
+                      }
+                    },
+                    {
+                      "description": "5-4",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/bomb_exploded.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/bomb_exploded.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "6-5",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/bomb_exploded.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/bomb_exploded.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    }
+                  ],
+                  "team2Rounds": [
+                    {
+                      "description": "0-1",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "0-2",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "0-3",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "1-4",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "5-5",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "6-6",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "team1Rounds": [
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "7-8",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "8-12",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "9-12",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "10-12",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "11-12",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "12-12",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    }
+                  ],
+                  "team2Rounds": [
+                    {
+                      "description": "6-7",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/t_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/t_win.png"
+                      }
+                    },
+                    {
+                      "description": "6-8",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/t_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/t_win.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "7-9",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/t_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/t_win.png"
+                      }
+                    },
+                    {
+                      "description": "7-10",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/t_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/t_win.png"
+                      }
+                    },
+                    {
+                      "description": "7-11",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/t_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/t_win.png"
+                      }
+                    },
+                    {
+                      "description": "7-12",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/t_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/t_win.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "overtimeHalvesRounds": [
+                {
+                  "team1Rounds": [
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "13-13",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/bomb_defused.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/bomb_defused.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    }
+                  ],
+                  "team2Rounds": [
+                    {
+                      "description": "12-13",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/t_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/t_win.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "13-14",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/t_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/t_win.png"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "team1Rounds": [
+                    {
+                      "description": "14-14",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/t_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/t_win.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "15-15",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/t_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/t_win.png"
+                      }
+                    }
+                  ],
+                  "team2Rounds": [
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "14-15",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "team1Rounds": [
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "16-17",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/t_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/t_win.png"
+                      }
+                    }
+                  ],
+                  "team2Rounds": [
+                    {
+                      "description": "15-16",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "15-17",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "team1Rounds": [
+                    {
+                      "description": "17-17",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "18-17",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "19-17",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    }
+                  ],
+                  "team2Rounds": [
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "pickedByTeamId": "13735"
+          },
+          "playerStats": {
+            "team1Stats": [
+              {
+                "playerId": "23361",
+                "kills": 34,
+                "deaths": 24,
+                "adr": "91.9",
+                "kast": "66.7%",
+                "rating": "1.58",
+                "roundSwing": "+6.64%",
+                "versionedRating": {
+                  "value": "1.58",
+                  "version": "3.0"
+                },
+                "openingKills": 4,
+                "openingDeaths": 3,
+                "multiKills": 9,
+                "clutches": 2,
+                "headshots": 18,
+                "assists": 8,
+                "flashAssists": 3,
+                "traded": 4
+              },
+              {
+                "playerId": "22638",
+                "kills": 24,
+                "deaths": 28,
+                "adr": "80.3",
+                "kast": "72.2%",
+                "rating": "1.09",
+                "roundSwing": "-0.07%",
+                "versionedRating": {
+                  "value": "1.09",
+                  "version": "3.0"
+                },
+                "openingKills": 2,
+                "openingDeaths": 4,
+                "multiKills": 6,
+                "clutches": 0,
+                "headshots": 20,
+                "assists": 11,
+                "flashAssists": 3,
+                "traded": 7
+              },
+              {
+                "playerId": "25854",
+                "kills": 28,
+                "deaths": 24,
+                "adr": "82.1",
+                "kast": "61.1%",
+                "rating": "0.96",
+                "roundSwing": "-0.15%",
+                "versionedRating": {
+                  "value": "0.96",
+                  "version": "3.0"
+                },
+                "openingKills": 3,
+                "openingDeaths": 5,
+                "multiKills": 10,
+                "clutches": 0,
+                "headshots": 6,
+                "assists": 7,
+                "flashAssists": 0,
+                "traded": 2
+              },
+              {
+                "playerId": "18989",
+                "kills": 19,
+                "deaths": 27,
+                "adr": "57.8",
+                "kast": "63.9%",
+                "rating": "0.85",
+                "roundSwing": "-1.37%",
+                "versionedRating": {
+                  "value": "0.85",
+                  "version": "3.0"
+                },
+                "openingKills": 4,
+                "openingDeaths": 4,
+                "multiKills": 5,
+                "clutches": 0,
+                "headshots": 14,
+                "assists": 5,
+                "flashAssists": 0,
+                "traded": 3
+              },
+              {
+                "playerId": "20198",
+                "kills": 19,
+                "deaths": 25,
+                "adr": "62.2",
+                "kast": "72.2%",
+                "rating": "0.84",
+                "roundSwing": "-2.15%",
+                "versionedRating": {
+                  "value": "0.84",
+                  "version": "3.0"
+                },
+                "openingKills": 3,
+                "openingDeaths": 4,
+                "multiKills": 1,
+                "clutches": 2,
+                "headshots": 12,
+                "assists": 17,
+                "flashAssists": 5,
+                "traded": 5
+              }
+            ],
+            "team2Stats": [
+              {
+                "playerId": "9115",
+                "kills": 35,
+                "deaths": 23,
+                "adr": "100.1",
+                "kast": "75.0%",
+                "rating": "1.28",
+                "roundSwing": "-0.27%",
+                "versionedRating": {
+                  "value": "1.28",
+                  "version": "3.0"
+                },
+                "openingKills": 7,
+                "openingDeaths": 4,
+                "multiKills": 12,
+                "clutches": 0,
+                "headshots": 14,
+                "assists": 15,
+                "flashAssists": 2,
+                "traded": 6
+              },
+              {
+                "playerId": "18545",
+                "kills": 28,
+                "deaths": 26,
+                "adr": "79.6",
+                "kast": "72.2%",
+                "rating": "1.25",
+                "roundSwing": "+2.39%",
+                "versionedRating": {
+                  "value": "1.25",
+                  "version": "3.0"
+                },
+                "openingKills": 4,
+                "openingDeaths": 3,
+                "multiKills": 5,
+                "clutches": 0,
+                "headshots": 18,
+                "assists": 10,
+                "flashAssists": 2,
+                "traded": 6
+              },
+              {
+                "playerId": "11139",
+                "kills": 26,
+                "deaths": 27,
+                "adr": "70.0",
+                "kast": "66.7%",
+                "rating": "0.90",
+                "roundSwing": "-0.37%",
+                "versionedRating": {
+                  "value": "0.90",
+                  "version": "3.0"
+                },
+                "openingKills": 5,
+                "openingDeaths": 1,
+                "multiKills": 5,
+                "clutches": 0,
+                "headshots": 8,
+                "assists": 3,
+                "flashAssists": 1,
+                "traded": 6
+              },
+              {
+                "playerId": "10588",
+                "kills": 18,
+                "deaths": 24,
+                "adr": "67.1",
+                "kast": "66.7%",
+                "rating": "0.88",
+                "roundSwing": "-2.01%",
+                "versionedRating": {
+                  "value": "0.88",
+                  "version": "3.0"
+                },
+                "openingKills": 0,
+                "openingDeaths": 3,
+                "multiKills": 6,
+                "clutches": 2,
+                "headshots": 12,
+                "assists": 13,
+                "flashAssists": 2,
+                "traded": 3
+              },
+              {
+                "playerId": "20527",
+                "kills": 20,
+                "deaths": 26,
+                "adr": "60.5",
+                "kast": "61.1%",
+                "rating": "0.79",
+                "roundSwing": "-3.45%",
+                "versionedRating": {
+                  "value": "0.79",
+                  "version": "3.0"
+                },
+                "openingKills": 4,
+                "openingDeaths": 5,
+                "multiKills": 2,
+                "clutches": 0,
+                "headshots": 9,
+                "assists": 6,
+                "flashAssists": 1,
+                "traded": 3
+              }
+            ]
+          },
+          "teamStats": {
+            "team1Stats": {
+              "flashAssists": 11,
+              "openingKills": 16,
+              "multiKills": 31,
+              "clutches": 4,
+              "pistolRounds": 0
+            },
+            "team2Stats": {
+              "flashAssists": 8,
+              "openingKills": 20,
+              "multiKills": 30,
+              "clutches": 2,
+              "pistolRounds": 2
+            }
+          }
+        },
+        {
+          "mapInfo": {
+            "mapId": 34,
+            "mapName": "Nuke",
+            "mapBackgroundUrl": "https://www.hltv.org/img/static/maps/nuke.png",
+            "mapResult": {
+              "team1Score": "6",
+              "team2Score": "13",
+              "winnerTeamId": "13486",
+              "team1OvertimeScore": null,
+              "team2OvertimeScore": null,
+              "firstHalf": {
+                "team1Score": "6",
+                "team2Score": "6",
+                "team1Side": "CT",
+                "team2Side": "T"
+              },
+              "secondHalf": {
+                "team1Score": "0",
+                "team2Score": "7",
+                "team1Side": "T",
+                "team2Side": "CT"
+              },
+              "regulationRounds": [
+                {
+                  "team1Rounds": [
+                    {
+                      "description": "1-0",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "2-0",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "3-1",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/bomb_defused.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/bomb_defused.png"
+                      }
+                    },
+                    {
+                      "description": "4-1",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "5-1",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "6-1",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/bomb_defused.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/bomb_defused.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    }
+                  ],
+                  "team2Rounds": [
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "2-1",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/bomb_exploded.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/bomb_exploded.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "6-2",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/t_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/t_win.png"
+                      }
+                    },
+                    {
+                      "description": "6-3",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/t_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/t_win.png"
+                      }
+                    },
+                    {
+                      "description": "6-4",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/t_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/t_win.png"
+                      }
+                    },
+                    {
+                      "description": "6-5",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/t_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/t_win.png"
+                      }
+                    },
+                    {
+                      "description": "6-6",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/t_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/t_win.png"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "team1Rounds": [
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    }
+                  ],
+                  "team2Rounds": [
+                    {
+                      "description": "6-7",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/bomb_defused.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/bomb_defused.png"
+                      }
+                    },
+                    {
+                      "description": "6-8",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/bomb_defused.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/bomb_defused.png"
+                      }
+                    },
+                    {
+                      "description": "6-9",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "6-10",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/bomb_defused.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/bomb_defused.png"
+                      }
+                    },
+                    {
+                      "description": "6-11",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "6-12",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "6-13",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    },
+                    {
+                      "description": "",
+                      "image": {
+                        "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+                        "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "overtimeHalvesRounds": []
+            },
+            "pickedByTeamId": null
+          },
+          "playerStats": {
+            "team1Stats": [
+              {
+                "playerId": "20198",
+                "kills": 17,
+                "deaths": 14,
+                "adr": "84.8",
+                "kast": "78.9%",
+                "rating": "1.33",
+                "roundSwing": "+3.14%",
+                "versionedRating": {
+                  "value": "1.33",
+                  "version": "3.0"
+                },
+                "openingKills": 2,
+                "openingDeaths": 0,
+                "multiKills": 5,
+                "clutches": 1,
+                "headshots": 10,
+                "assists": 2,
+                "flashAssists": 0,
+                "traded": 2
+              },
+              {
+                "playerId": "23361",
+                "kills": 16,
+                "deaths": 15,
+                "adr": "73.4",
+                "kast": "68.4%",
+                "rating": "1.01",
+                "roundSwing": "-4.11%",
+                "versionedRating": {
+                  "value": "1.01",
+                  "version": "3.0"
+                },
+                "openingKills": 2,
+                "openingDeaths": 0,
+                "multiKills": 4,
+                "clutches": 0,
+                "headshots": 9,
+                "assists": 5,
+                "flashAssists": 3,
+                "traded": 1
+              },
+              {
+                "playerId": "25854",
+                "kills": 12,
+                "deaths": 15,
+                "adr": "77.7",
+                "kast": "84.2%",
+                "rating": "0.89",
+                "roundSwing": "-3.03%",
+                "versionedRating": {
+                  "value": "0.89",
+                  "version": "3.0"
+                },
+                "openingKills": 1,
+                "openingDeaths": 5,
+                "multiKills": 3,
+                "clutches": 0,
+                "headshots": 6,
+                "assists": 5,
+                "flashAssists": 0,
+                "traded": 4
+              },
+              {
+                "playerId": "22638",
+                "kills": 13,
+                "deaths": 16,
+                "adr": "69.6",
+                "kast": "68.4%",
+                "rating": "0.86",
+                "roundSwing": "-5.51%",
+                "versionedRating": {
+                  "value": "0.86",
+                  "version": "3.0"
+                },
+                "openingKills": 1,
+                "openingDeaths": 4,
+                "multiKills": 3,
+                "clutches": 0,
+                "headshots": 8,
+                "assists": 3,
+                "flashAssists": 0,
+                "traded": 4
+              },
+              {
+                "playerId": "18989",
+                "kills": 7,
+                "deaths": 17,
+                "adr": "58.7",
+                "kast": "68.4%",
+                "rating": "0.48",
+                "roundSwing": "-8.29%",
+                "versionedRating": {
+                  "value": "0.48",
+                  "version": "3.0"
+                },
+                "openingKills": 2,
+                "openingDeaths": 2,
+                "multiKills": 1,
+                "clutches": 0,
+                "headshots": 4,
+                "assists": 7,
+                "flashAssists": 0,
+                "traded": 2
+              }
+            ],
+            "team2Stats": [
+              {
+                "playerId": "10588",
+                "kills": 23,
+                "deaths": 11,
+                "adr": "122.2",
+                "kast": "84.2%",
+                "rating": "2.09",
+                "roundSwing": "+10.88%",
+                "versionedRating": {
+                  "value": "2.09",
+                  "version": "3.0"
+                },
+                "openingKills": 1,
+                "openingDeaths": 0,
+                "multiKills": 7,
+                "clutches": 0,
+                "headshots": 9,
+                "assists": 5,
+                "flashAssists": 0,
+                "traded": 0
+              },
+              {
+                "playerId": "18545",
+                "kills": 17,
+                "deaths": 14,
+                "adr": "91.8",
+                "kast": "84.2%",
+                "rating": "1.51",
+                "roundSwing": "+7.55%",
+                "versionedRating": {
+                  "value": "1.51",
+                  "version": "3.0"
+                },
+                "openingKills": 4,
+                "openingDeaths": 1,
+                "multiKills": 4,
+                "clutches": 1,
+                "headshots": 9,
+                "assists": 7,
+                "flashAssists": 1,
+                "traded": 4
+              },
+              {
+                "playerId": "11139",
+                "kills": 14,
+                "deaths": 12,
+                "adr": "63.1",
+                "kast": "78.9%",
+                "rating": "1.15",
+                "roundSwing": "+1.38%",
+                "versionedRating": {
+                  "value": "1.15",
+                  "version": "3.0"
+                },
+                "openingKills": 5,
+                "openingDeaths": 2,
+                "multiKills": 2,
+                "clutches": 0,
+                "headshots": 3,
+                "assists": 5,
+                "flashAssists": 3,
+                "traded": 2
+              },
+              {
+                "playerId": "9115",
+                "kills": 13,
+                "deaths": 13,
+                "adr": "70.9",
+                "kast": "73.7%",
+                "rating": "1.03",
+                "roundSwing": "+0.49%",
+                "versionedRating": {
+                  "value": "1.03",
+                  "version": "3.0"
+                },
+                "openingKills": 0,
+                "openingDeaths": 4,
+                "multiKills": 4,
+                "clutches": 1,
+                "headshots": 8,
+                "assists": 8,
+                "flashAssists": 2,
+                "traded": 4
+              },
+              {
+                "playerId": "20527",
+                "kills": 10,
+                "deaths": 15,
+                "adr": "64.0",
+                "kast": "84.2%",
+                "rating": "0.86",
+                "roundSwing": "-2.50%",
+                "versionedRating": {
+                  "value": "0.86",
+                  "version": "3.0"
+                },
+                "openingKills": 1,
+                "openingDeaths": 1,
+                "multiKills": 3,
+                "clutches": 1,
+                "headshots": 5,
+                "assists": 9,
+                "flashAssists": 2,
+                "traded": 6
+              }
+            ]
+          },
+          "teamStats": {
+            "team1Stats": {
+              "flashAssists": 3,
+              "openingKills": 8,
+              "multiKills": 16,
+              "clutches": 1,
+              "pistolRounds": 1
+            },
+            "team2Stats": {
+              "flashAssists": 8,
+              "openingKills": 11,
+              "multiKills": 20,
+              "clutches": 3,
+              "pistolRounds": 1
+            }
+          }
+        }
+      ],
+      "information": "Best of 3 (LAN)\n\n* Group B lower bracket final",
+      "maps": [
+        {
+          "mapId": 48,
+          "mapName": "Anubis",
+          "mapBackgroundUrl": "https://www.hltv.org/img/static/maps/anubis.png",
+          "mapResult": {
+            "team1Score": "5",
+            "team2Score": "13",
+            "winnerTeamId": "13486",
+            "team1OvertimeScore": null,
+            "team2OvertimeScore": null,
+            "firstHalf": {
+              "team1Score": "4",
+              "team2Score": "8",
+              "team1Side": "T",
+              "team2Side": "CT"
+            },
+            "secondHalf": {
+              "team1Score": "1",
+              "team2Score": "5",
+              "team1Side": "CT",
+              "team2Side": "T"
+            },
+            "regulationRounds": null,
+            "overtimeHalvesRounds": null
+          },
+          "pickedByTeamId": "13486"
+        },
+        {
+          "mapId": 31,
+          "mapName": "Dust2",
+          "mapBackgroundUrl": "https://www.hltv.org/img/static/maps/dust2.png",
+          "mapResult": {
+            "team1Score": "19",
+            "team2Score": "17",
+            "winnerTeamId": "13735",
+            "team1OvertimeScore": "7",
+            "team2OvertimeScore": "5",
+            "firstHalf": {
+              "team1Score": "6",
+              "team2Score": "6",
+              "team1Side": "T",
+              "team2Side": "CT"
+            },
+            "secondHalf": {
+              "team1Score": "6",
+              "team2Score": "6",
+              "team1Side": "CT",
+              "team2Side": "T"
+            },
+            "regulationRounds": null,
+            "overtimeHalvesRounds": null
+          },
+          "pickedByTeamId": "13735"
+        },
+        {
+          "mapId": 34,
+          "mapName": "Nuke",
+          "mapBackgroundUrl": "https://www.hltv.org/img/static/maps/nuke.png",
+          "mapResult": {
+            "team1Score": "6",
+            "team2Score": "13",
+            "winnerTeamId": "13486",
+            "team1OvertimeScore": null,
+            "team2OvertimeScore": null,
+            "firstHalf": {
+              "team1Score": "6",
+              "team2Score": "6",
+              "team1Side": "CT",
+              "team2Side": "T"
+            },
+            "secondHalf": {
+              "team1Score": "0",
+              "team2Score": "7",
+              "team1Side": "T",
+              "team2Side": "CT"
+            },
+            "regulationRounds": null,
+            "overtimeHalvesRounds": null
+          },
+          "pickedByTeamId": null
+        }
+      ],
+      "veto": "1. THUNDER dOWNUNDER removed Mirage\n2. Haunted House removed Overpass\n3. THUNDER dOWNUNDER picked Anubis\n4. Haunted House picked Dust2\n5. Haunted House removed Inferno\n6. THUNDER dOWNUNDER removed Ancient\n7. Nuke was left over\n",
+      "headToHead": {
+        "team1Wins": 2,
+        "overtimes": 0,
+        "team2Wins": 0
+      },
+      "streams": [
+        {
+          "streamId": "5204",
+          "flagUrl": "https://www.hltv.org/img/static/flags/30x20/AU.gif",
+          "streamName": "churchd0gg",
+          "embedUrl": "https://player.twitch.tv/?channel=churchd0gg&autoplay=true&parent=www.hltv.org",
+          "providerName": "TWITCH"
+        }
+      ],
+      "highlights": [],
+      "allPlayers": [
+        {
+          "playerId": "18989",
+          "nick": "fr0k",
+          "name": "Ruslan Gizatov",
+          "playerImageUrl": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/playerbodyshot/pgljNmmYJD_NjLKbRCynDD.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=124%2C8%2C467%2C467&w=800&s=567bcb5a519ae721a1c8c15bf60b9807",
+            "pngUrl": "https://img-cdn.hltv.org/playerbodyshot/pgljNmmYJD_NjLKbRCynDD.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=124%2C8%2C467%2C467&w=800&s=567bcb5a519ae721a1c8c15bf60b9807"
+          },
+          "playerBodyShotImageUrl": "https://img-cdn.hltv.org/playerbodyshot/pgljNmmYJD_NjLKbRCynDD.png?ixlib=java-2.1.0&w=400&s=44124368d6a4fb66c60e4479a3714553",
+          "ratingPast3Months": {
+            "value": "0.98",
+            "version": "3.0"
+          }
+        },
+        {
+          "playerId": "20198",
+          "nick": "SasukeQO",
+          "name": "Nikolay Zhukov",
+          "playerImageUrl": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/playerbodyshot/Khii09MxMFpgEQl7--92_N.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=121%2C12%2C478%2C478&w=800&s=b93f3b580586ca3ba88b3c0696fbe853",
+            "pngUrl": "https://img-cdn.hltv.org/playerbodyshot/Khii09MxMFpgEQl7--92_N.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=121%2C12%2C478%2C478&w=800&s=b93f3b580586ca3ba88b3c0696fbe853"
+          },
+          "playerBodyShotImageUrl": "https://img-cdn.hltv.org/playerbodyshot/Khii09MxMFpgEQl7--92_N.png?ixlib=java-2.1.0&w=400&s=7f96c695bcb7890689cd236a9ed9e7c5",
+          "ratingPast3Months": {
+            "value": "1.07",
+            "version": "3.0"
+          }
+        },
+        {
+          "playerId": "22638",
+          "nick": "icyvl0ne",
+          "name": "Daniel Lee",
+          "playerImageUrl": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/playerbodyshot/ZToHpJCifLIHJWRnrLmnZi.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=124%2C8%2C467%2C467&w=800&s=9d6097e28eb3652b48acb68616804bc5",
+            "pngUrl": "https://img-cdn.hltv.org/playerbodyshot/ZToHpJCifLIHJWRnrLmnZi.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=124%2C8%2C467%2C467&w=800&s=9d6097e28eb3652b48acb68616804bc5"
+          },
+          "playerBodyShotImageUrl": "https://img-cdn.hltv.org/playerbodyshot/ZToHpJCifLIHJWRnrLmnZi.png?ixlib=java-2.1.0&w=400&s=e637d2cc8ff064bcf03e1e5bf974be22",
+          "ratingPast3Months": {
+            "value": "0.94",
+            "version": "3.0"
+          }
+        },
+        {
+          "playerId": "23361",
+          "nick": "malinov",
+          "name": "Danil Mutav",
+          "playerImageUrl": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/playerbodyshot/Qjte8fU3Q-21YNbWvxUiI6.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=121%2C8%2C467%2C467&w=800&s=c9dc9dae16509bb2b374e5907236a113",
+            "pngUrl": "https://img-cdn.hltv.org/playerbodyshot/Qjte8fU3Q-21YNbWvxUiI6.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=121%2C8%2C467%2C467&w=800&s=c9dc9dae16509bb2b374e5907236a113"
+          },
+          "playerBodyShotImageUrl": "https://img-cdn.hltv.org/playerbodyshot/Qjte8fU3Q-21YNbWvxUiI6.png?ixlib=java-2.1.0&w=400&s=275d39685e2e67021cc3ef871780b702",
+          "ratingPast3Months": {
+            "value": "1.06",
+            "version": "3.0"
+          }
+        },
+        {
+          "playerId": "25854",
+          "nick": "Schwarzkopf",
+          "name": "Bakhtiyer Ismatillaev ",
+          "playerImageUrl": {
+            "svgOrPngUrl": "https://www.hltv.org/img/static/player/blankplayer.svg",
+            "pngUrl": "https://www.hltv.org/img/static/player/blankplayer.png"
+          },
+          "playerBodyShotImageUrl": "https://www.hltv.org/img/static/player/player_silhouette.png",
+          "ratingPast3Months": {
+            "value": "0.95",
+            "version": "3.0"
+          }
+        },
+        {
+          "playerId": "10588",
+          "nick": "Liazz",
+          "name": "Jay Tregillgas",
+          "playerImageUrl": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/playerbodyshot/b5gn_IRg31fpDeBLH9R5B1.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=117%2C4%2C482%2C482&w=800&s=4eacb7b326718f8987f17515376fd0f8",
+            "pngUrl": "https://img-cdn.hltv.org/playerbodyshot/b5gn_IRg31fpDeBLH9R5B1.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=117%2C4%2C482%2C482&w=800&s=4eacb7b326718f8987f17515376fd0f8"
+          },
+          "playerBodyShotImageUrl": "https://img-cdn.hltv.org/playerbodyshot/b5gn_IRg31fpDeBLH9R5B1.png?ixlib=java-2.1.0&w=400&s=8709985a7bac9c0079684a3299e3b6dd",
+          "ratingPast3Months": {
+            "value": "1.12",
+            "version": "3.0"
+          }
+        },
+        {
+          "playerId": "9115",
+          "nick": "dexter",
+          "name": "Christopher Nong",
+          "playerImageUrl": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/playerbodyshot/LQOwi8lgg9rUj7l3BQqcPq.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=121%2C0%2C467%2C467&w=800&s=d964c8836919c8f74c58d00269ff1403",
+            "pngUrl": "https://img-cdn.hltv.org/playerbodyshot/LQOwi8lgg9rUj7l3BQqcPq.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=121%2C0%2C467%2C467&w=800&s=d964c8836919c8f74c58d00269ff1403"
+          },
+          "playerBodyShotImageUrl": "https://img-cdn.hltv.org/playerbodyshot/LQOwi8lgg9rUj7l3BQqcPq.png?ixlib=java-2.1.0&w=400&s=ee537361781d0e3b7ef9f3a3e71fe170",
+          "ratingPast3Months": {
+            "value": "0.96",
+            "version": "3.0"
+          }
+        },
+        {
+          "playerId": "11139",
+          "nick": "aliStair",
+          "name": "Alistair Johnston",
+          "playerImageUrl": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/playerbodyshot/9sRVowyhu_J0DuQvvtz44T.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=121%2C0%2C467%2C467&w=800&s=cca34ed71ee60826f0ae71de77ec813c",
+            "pngUrl": "https://img-cdn.hltv.org/playerbodyshot/9sRVowyhu_J0DuQvvtz44T.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=121%2C0%2C467%2C467&w=800&s=cca34ed71ee60826f0ae71de77ec813c"
+          },
+          "playerBodyShotImageUrl": "https://img-cdn.hltv.org/playerbodyshot/9sRVowyhu_J0DuQvvtz44T.png?ixlib=java-2.1.0&w=400&s=ec54994c56306adbade311d8b6d1ca84",
+          "ratingPast3Months": {
+            "value": "1.16",
+            "version": "3.0"
+          }
+        },
+        {
+          "playerId": "18545",
+          "nick": "asap",
+          "name": "Tyson Paterson",
+          "playerImageUrl": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/gallerypicture/zYwLywUeOCnbE744FEk0Bj.jpg?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=2335%2C41%2C5297%2C5297&w=800&s=81b923ab84839310c0aa8445bb378db4",
+            "pngUrl": "https://img-cdn.hltv.org/gallerypicture/zYwLywUeOCnbE744FEk0Bj.jpg?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=2335%2C41%2C5297%2C5297&w=800&s=81b923ab84839310c0aa8445bb378db4"
+          },
+          "playerBodyShotImageUrl": null,
+          "ratingPast3Months": {
+            "value": "1.24",
+            "version": "3.0"
+          }
+        },
+        {
+          "playerId": "20527",
+          "nick": "TjP",
+          "name": "Tynan Purtell",
+          "playerImageUrl": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/gallerypicture/hAjNJKLIhJEtBbhcU_kS53.jpg?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=3331%2C82%2C3809%2C3809&w=800&s=8ec741b477cfc422adc7823938474f8c",
+            "pngUrl": "https://img-cdn.hltv.org/gallerypicture/hAjNJKLIhJEtBbhcU_kS53.jpg?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=3331%2C82%2C3809%2C3809&w=800&s=8ec741b477cfc422adc7823938474f8c"
+          },
+          "playerBodyShotImageUrl": null,
+          "ratingPast3Months": {
+            "value": "1.00",
+            "version": "3.0"
+          }
+        }
+      ],
+      "gamelogIcons": {
+        "headshotUrl": {
+          "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard/weapons/headshot.png",
+          "pngUrl": "https://www.hltv.org/img/static/scoreboard/weapons/headshot.png"
+        },
+        "defusekitUrl": {
+          "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard/weapons/svg/defusekit.svg",
+          "pngUrl": "https://www.hltv.org/img/static/scoreboard/weapons/defusekit100x100.png"
+        },
+        "flashbangUrl": {
+          "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard/weapons/flashbang.png",
+          "pngUrl": "https://www.hltv.org/img/static/scoreboard/weapons/flashbang.png"
+        },
+        "kevlarUrl": {
+          "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard/weapons/kevlar.png",
+          "pngUrl": "https://www.hltv.org/img/static/scoreboard/weapons/kevlar.png"
+        },
+        "kevlarHelmetUrl": {
+          "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard/weapons/kevlar_helmet.png",
+          "pngUrl": "https://www.hltv.org/img/static/scoreboard/weapons/kevlar_helmet.png"
+        },
+        "buyUrl": {
+          "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard/weapons/buy.png",
+          "pngUrl": "https://www.hltv.org/img/static/scoreboard/weapons/buy.png"
+        },
+        "healthUrl": {
+          "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard/weapons/health.png",
+          "pngUrl": "https://www.hltv.org/img/static/scoreboard/weapons/health.png"
+        },
+        "ctsWinUrl": {
+          "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/ct_win.svg",
+          "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/ct_win.png"
+        },
+        "tsWinUrl": {
+          "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/t_win.svg",
+          "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/t_win.png"
+        },
+        "bombPlantUrl": {
+          "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard/weapons/svg/bombplant.svg",
+          "pngUrl": "https://www.hltv.org/img/static/scoreboard/weapons/bombplant100x100.png"
+        },
+        "bombDefusedUrl": {
+          "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/bomb_defused.svg",
+          "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/bomb_defused.png"
+        },
+        "targetBombedUrl": {
+          "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/bomb_exploded.svg",
+          "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/bomb_exploded.png"
+        },
+        "targetSavedUrl": {
+          "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/stopwatch.svg",
+          "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/stopwatch.png"
+        },
+        "emptyRoundFillerUrl": {
+          "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard2/appEmptyHistory.svg",
+          "pngUrl": "https://www.hltv.org/img/static/scoreboard2/png/appEmptyHistory.png"
+        },
+        "weaponsUrlPrefix": "https://www.hltv.org/img/static/scoreboard/weapons/",
+        "weaponsUrlPostfix": ".png",
+        "penetrated": {
+          "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard/weapons/penetration.png",
+          "pngUrl": "https://www.hltv.org/img/static/scoreboard/weapons/penetration.png"
+        },
+        "throughSmoke": {
+          "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard/weapons/through_smoke.png",
+          "pngUrl": "https://www.hltv.org/img/static/scoreboard/weapons/through_smoke.png"
+        },
+        "noScope": {
+          "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard/weapons/noscope.png",
+          "pngUrl": "https://www.hltv.org/img/static/scoreboard/weapons/noscope.png"
+        },
+        "killerBlind": {
+          "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard/weapons/shooter_blind.png",
+          "pngUrl": "https://www.hltv.org/img/static/scoreboard/weapons/shooter_blind.png"
+        },
+        "attackerInAir": {
+          "svgOrPngUrl": "https://www.hltv.org/img/static/scoreboard/weapons/attacker_in_air.png",
+          "pngUrl": "https://www.hltv.org/img/static/scoreboard/weapons/attacker_in_air.png"
+        },
+        "scoreboardMapBackgroundPrefix": "https://www.hltv.org/img/static/scoreboardmaps/",
+        "scoreboardMapBackgroundPostfix": ".png"
+      },
+      "vrsForCast": {
+        "team1CurrentPoints": 871,
+        "team2CurrentPoints": 1226,
+        "team1CurrentRank": 152,
+        "team2CurrentRank": 55,
+        "team1WinPoints": 942,
+        "team2WinPoints": 1235,
+        "team1WinRank": 130,
+        "team2WinRank": 53,
+        "team1LosePoints": 868,
+        "team2LosePoints": 1200,
+        "team1LoseRank": 153,
+        "team2LoseRank": 62
+      },
+      "mapTeamStats": {
+        "team1MapStats": {
+          "48": {
+            "mapId": 48,
+            "played": 3,
+            "winRate": "67%",
+            "ctRounds": 32,
+            "ctWinRate": "56%",
+            "tRounds": 39,
+            "tWinRate": "41%",
+            "pickPercentage": "10%",
+            "banPercentage": "19%"
+          },
+          "31": {
+            "mapId": 31,
+            "played": 10,
+            "winRate": "60%",
+            "ctRounds": 107,
+            "ctWinRate": "53%",
+            "tRounds": 118,
+            "tWinRate": "43%",
+            "pickPercentage": "55%",
+            "banPercentage": "0%"
+          },
+          "34": {
+            "mapId": 34,
+            "played": 6,
+            "winRate": "17%",
+            "ctRounds": 67,
+            "ctWinRate": "36%",
+            "tRounds": 50,
+            "tWinRate": "30%",
+            "pickPercentage": "29%",
+            "banPercentage": "0%"
+          },
+          "32": {
+            "mapId": 32,
+            "played": 4,
+            "winRate": "25%",
+            "ctRounds": 42,
+            "ctWinRate": "40%",
+            "tRounds": 39,
+            "tWinRate": "41%",
+            "pickPercentage": "29%",
+            "banPercentage": "0%"
+          },
+          "33": {
+            "mapId": 33,
+            "played": 1,
+            "winRate": null,
+            "ctRounds": 12,
+            "ctWinRate": "58%",
+            "tRounds": 7,
+            "tWinRate": "86%",
+            "pickPercentage": "0%",
+            "banPercentage": "53%"
+          },
+          "40": {
+            "mapId": 40,
+            "played": 0,
+            "winRate": null,
+            "ctRounds": 0,
+            "ctWinRate": "0%",
+            "tRounds": 0,
+            "tWinRate": "0%",
+            "pickPercentage": "0%",
+            "banPercentage": "75%"
+          },
+          "47": {
+            "mapId": 47,
+            "played": 4,
+            "winRate": "50%",
+            "ctRounds": 47,
+            "ctWinRate": "43%",
+            "tRounds": 52,
+            "tWinRate": "50%",
+            "pickPercentage": "20%",
+            "banPercentage": "5%"
+          }
+        },
+        "team2MapStats": {
+          "48": {
+            "mapId": 48,
+            "played": 15,
+            "winRate": "80%",
+            "ctRounds": 175,
+            "ctWinRate": "57%",
+            "tRounds": 144,
+            "tWinRate": "62%",
+            "pickPercentage": "57%",
+            "banPercentage": "12%"
+          },
+          "31": {
+            "mapId": 31,
+            "played": 8,
+            "winRate": "75%",
+            "ctRounds": 102,
+            "ctWinRate": "76%",
+            "tRounds": 70,
+            "tWinRate": "39%",
+            "pickPercentage": "0%",
+            "banPercentage": "26%"
+          },
+          "34": {
+            "mapId": 34,
+            "played": 17,
+            "winRate": "82%",
+            "ctRounds": 171,
+            "ctWinRate": "70%",
+            "tRounds": 196,
+            "tWinRate": "52%",
+            "pickPercentage": "29%",
+            "banPercentage": "6%"
+          },
+          "32": {
+            "mapId": 32,
+            "played": 0,
+            "winRate": null,
+            "ctRounds": 0,
+            "ctWinRate": "0%",
+            "tRounds": 0,
+            "tWinRate": "0%",
+            "pickPercentage": "0%",
+            "banPercentage": "100%"
+          },
+          "33": {
+            "mapId": 33,
+            "played": 17,
+            "winRate": "76%",
+            "ctRounds": 156,
+            "ctWinRate": "64%",
+            "tRounds": 179,
+            "tWinRate": "61%",
+            "pickPercentage": "50%",
+            "banPercentage": "0%"
+          },
+          "40": {
+            "mapId": 40,
+            "played": 3,
+            "winRate": "33%",
+            "ctRounds": 29,
+            "ctWinRate": "59%",
+            "tRounds": 35,
+            "tWinRate": "31%",
+            "pickPercentage": "0%",
+            "banPercentage": "23%"
+          },
+          "47": {
+            "mapId": 47,
+            "played": 8,
+            "winRate": "62%",
+            "ctRounds": 102,
+            "ctWinRate": "61%",
+            "tRounds": 72,
+            "tWinRate": "57%",
+            "pickPercentage": "0%",
+            "banPercentage": "38%"
+          }
+        },
+        "mapInfos": {
+          "48": {
+            "mapId": 48,
+            "mapName": "Anubis",
+            "mapBackgroundUrl": "https://www.hltv.org/img/static/statsmatchmaps/anubis.png"
+          },
+          "31": {
+            "mapId": 31,
+            "mapName": "Dust2",
+            "mapBackgroundUrl": "https://www.hltv.org/img/static/statsmatchmaps/dust2.png"
+          },
+          "34": {
+            "mapId": 34,
+            "mapName": "Nuke",
+            "mapBackgroundUrl": "https://www.hltv.org/img/static/statsmatchmaps/nuke.png"
+          },
+          "32": {
+            "mapId": 32,
+            "mapName": "Mirage",
+            "mapBackgroundUrl": "https://www.hltv.org/img/static/statsmatchmaps/mirage.png"
+          },
+          "33": {
+            "mapId": 33,
+            "mapName": "Inferno",
+            "mapBackgroundUrl": "https://www.hltv.org/img/static/statsmatchmaps/inferno.png"
+          },
+          "40": {
+            "mapId": 40,
+            "mapName": "Overpass",
+            "mapBackgroundUrl": "https://www.hltv.org/img/static/statsmatchmaps/overpass.png"
+          },
+          "47": {
+            "mapId": 47,
+            "mapName": "Ancient",
+            "mapBackgroundUrl": "https://www.hltv.org/img/static/statsmatchmaps/ancient.png"
+          }
+        },
+        "veto": [
+          {
+            "mapId": 32,
+            "teamId": "13486",
+            "action": "BAN"
+          },
+          {
+            "mapId": 40,
+            "teamId": "13735",
+            "action": "BAN"
+          },
+          {
+            "mapId": 48,
+            "teamId": "13486",
+            "action": "PICK"
+          },
+          {
+            "mapId": 31,
+            "teamId": "13735",
+            "action": "PICK"
+          },
+          {
+            "mapId": 33,
+            "teamId": "13735",
+            "action": "BAN"
+          },
+          {
+            "mapId": 47,
+            "teamId": "13486",
+            "action": "BAN"
+          },
+          {
+            "mapId": 34,
+            "teamId": null,
+            "action": "LEFTOVER"
+          }
+        ]
+      },
+      "team1FormMatches": [
+        {
+          "matchId": "2394262",
+          "teamName": "Haunted House",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa"
+          },
+          "opponentName": "Change The Game",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/jhWUEqa0RW-EmcsND2lk2H.png?ixlib=java-2.1.0&w=500&s=4fc843df422906cf50149dccc64da69f",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/jhWUEqa0RW-EmcsND2lk2H.png?ixlib=java-2.1.0&w=500&s=4fc843df422906cf50149dccc64da69f"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 0
+        },
+        {
+          "matchId": "2394253",
+          "teamName": "Haunted House",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa"
+          },
+          "opponentName": "Lynn Vision",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/DPcHT21uWwK1hDD_3txlL9.png?ixlib=java-2.1.0&w=500&s=6572bf542c1923ec4e758580b320485e",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/DPcHT21uWwK1hDD_3txlL9.png?ixlib=java-2.1.0&w=500&s=6572bf542c1923ec4e758580b320485e"
+          },
+          "outcome": "LOST",
+          "teamScore": 1,
+          "opponentScore": 2
+        },
+        {
+          "matchId": "2394248",
+          "teamName": "Haunted House",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa"
+          },
+          "opponentName": "THUNDER dOWNUNDER",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/bSRhbVtvK3S64DVmh5XIgi.png?ixlib=java-2.1.0&w=500&s=cb8ce427b9d14f70c00977f44b5b5c52",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/bSRhbVtvK3S64DVmh5XIgi.png?ixlib=java-2.1.0&w=500&s=cb8ce427b9d14f70c00977f44b5b5c52"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 0
+        },
+        {
+          "matchId": "2393582",
+          "teamName": "Haunted House",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa"
+          },
+          "opponentName": "BORING PLAYERS",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/wTqyVncbhEPAKahTJ9jvqK.png?ixlib=java-2.1.0&w=500&s=203f4d3220652fb10ef6e79ee36813b2",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/wTqyVncbhEPAKahTJ9jvqK.png?ixlib=java-2.1.0&w=500&s=203f4d3220652fb10ef6e79ee36813b2"
+          },
+          "outcome": "LOST",
+          "teamScore": 0,
+          "opponentScore": 2
+        },
+        {
+          "matchId": "2393573",
+          "teamName": "Haunted House",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa"
+          },
+          "opponentName": "Kaleido",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/7CqKzJ3jTU826IibHi_a5z.png?ixlib=java-2.1.0&w=500&s=5e6f166609ff68ecd12ecf8f759fcb00",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/7CqKzJ3jTU826IibHi_a5z.png?ixlib=java-2.1.0&w=500&s=5e6f166609ff68ecd12ecf8f759fcb00"
+          },
+          "outcome": "LOST",
+          "teamScore": 0,
+          "opponentScore": 1
+        },
+        {
+          "matchId": "2392341",
+          "teamName": "Haunted House",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa"
+          },
+          "opponentName": "DEPO",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/QMj_KGH98bGzvokFoPi3ms.png?ixlib=java-2.1.0&w=500&s=be652fab35b446782e86bee18d8bd8fe",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/QMj_KGH98bGzvokFoPi3ms.png?ixlib=java-2.1.0&w=500&s=be652fab35b446782e86bee18d8bd8fe"
+          },
+          "outcome": "LOST",
+          "teamScore": 0,
+          "opponentScore": 2
+        },
+        {
+          "matchId": "2392338",
+          "teamName": "Haunted House",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa"
+          },
+          "opponentName": "Legion",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/E1Mbu8dLgT84ihEYQDnwGI.png?ixlib=java-2.1.0&w=500&s=8fbf222cd48259578503b8c50287c7a3",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/E1Mbu8dLgT84ihEYQDnwGI.png?ixlib=java-2.1.0&w=500&s=8fbf222cd48259578503b8c50287c7a3"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 1
+        },
+        {
+          "matchId": "2392337",
+          "teamName": "Haunted House",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa"
+          },
+          "opponentName": "THE UNIT",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://www.hltv.org/dynamic-svg/teamplaceholder?letter=T",
+            "pngUrl": "https://www.hltv.org/img/static/team/placeholder.png"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 1
+        },
+        {
+          "matchId": "2392032",
+          "teamName": "Haunted House",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa"
+          },
+          "opponentName": "Alter Ego",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/rcVrbr1QiFUoakiO5jGExR.png?ixlib=java-2.1.0&w=500&s=b413fe07924dac47dc8f016776e8b731",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/rcVrbr1QiFUoakiO5jGExR.png?ixlib=java-2.1.0&w=500&s=b413fe07924dac47dc8f016776e8b731"
+          },
+          "outcome": "LOST",
+          "teamScore": 0,
+          "opponentScore": 2
+        },
+        {
+          "matchId": "2392027",
+          "teamName": "Haunted House",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa"
+          },
+          "opponentName": "NSN",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/qazH2BZVRDTUafLAxKqmmm.png?ixlib=java-2.1.0&s=604d5eeee51b3a5c17031936f6c64b34",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/qazH2BZVRDTUafLAxKqmmm.png?ixlib=java-2.1.0&s=604d5eeee51b3a5c17031936f6c64b34"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 1
+        },
+        {
+          "matchId": "2392023",
+          "teamName": "Haunted House",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa"
+          },
+          "opponentName": "Change The Game",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/jhWUEqa0RW-EmcsND2lk2H.png?ixlib=java-2.1.0&w=500&s=4fc843df422906cf50149dccc64da69f",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/jhWUEqa0RW-EmcsND2lk2H.png?ixlib=java-2.1.0&w=500&s=4fc843df422906cf50149dccc64da69f"
+          },
+          "outcome": "WON",
+          "teamScore": 1,
+          "opponentScore": 0
+        },
+        {
+          "matchId": "2392012",
+          "teamName": "Haunted House",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa"
+          },
+          "opponentName": "Just Swing",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/QRyGrQj3EGLYIAjqiMGvFn.png?ixlib=java-2.1.0&w=500&s=6ff63479fa2a352fdc16ae71903b6245",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/QRyGrQj3EGLYIAjqiMGvFn.png?ixlib=java-2.1.0&w=500&s=6ff63479fa2a352fdc16ae71903b6245"
+          },
+          "outcome": "LOST",
+          "teamScore": 1,
+          "opponentScore": 2
+        }
+      ],
+      "team2FormMatches": [
+        {
+          "matchId": "2394261",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/bSRhbVtvK3S64DVmh5XIgi.png?ixlib=java-2.1.0&w=500&s=cb8ce427b9d14f70c00977f44b5b5c52",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/bSRhbVtvK3S64DVmh5XIgi.png?ixlib=java-2.1.0&w=500&s=cb8ce427b9d14f70c00977f44b5b5c52"
+          },
+          "opponentName": "SemperFi",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/AhNio82uoOBO6dVCMCgDx-.png?ixlib=java-2.1.0&w=500&s=6d0ef37ed1d5e1235dce28a000c2668a",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/AhNio82uoOBO6dVCMCgDx-.png?ixlib=java-2.1.0&w=500&s=6d0ef37ed1d5e1235dce28a000c2668a"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 0
+        },
+        {
+          "matchId": "2394257",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/bSRhbVtvK3S64DVmh5XIgi.png?ixlib=java-2.1.0&w=500&s=cb8ce427b9d14f70c00977f44b5b5c52",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/bSRhbVtvK3S64DVmh5XIgi.png?ixlib=java-2.1.0&w=500&s=cb8ce427b9d14f70c00977f44b5b5c52"
+          },
+          "opponentName": "Alter Ego",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/rcVrbr1QiFUoakiO5jGExR.png?ixlib=java-2.1.0&w=500&s=b413fe07924dac47dc8f016776e8b731",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/rcVrbr1QiFUoakiO5jGExR.png?ixlib=java-2.1.0&w=500&s=b413fe07924dac47dc8f016776e8b731"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 0
+        },
+        {
+          "matchId": "2394248",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/bSRhbVtvK3S64DVmh5XIgi.png?ixlib=java-2.1.0&w=500&s=cb8ce427b9d14f70c00977f44b5b5c52",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/bSRhbVtvK3S64DVmh5XIgi.png?ixlib=java-2.1.0&w=500&s=cb8ce427b9d14f70c00977f44b5b5c52"
+          },
+          "opponentName": "Haunted House",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/6bmh57fYIPQ0qKj4nOi5qt.png?ixlib=java-2.1.0&w=500&s=574aa4dace411acf46e3eaead85cdcfa"
+          },
+          "outcome": "LOST",
+          "teamScore": 0,
+          "opponentScore": 2
+        },
+        {
+          "matchId": "2393567",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/bSRhbVtvK3S64DVmh5XIgi.png?ixlib=java-2.1.0&w=500&s=cb8ce427b9d14f70c00977f44b5b5c52",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/bSRhbVtvK3S64DVmh5XIgi.png?ixlib=java-2.1.0&w=500&s=cb8ce427b9d14f70c00977f44b5b5c52"
+          },
+          "opponentName": "Ground Zero",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/rGAB_PzwZbvmNy3V8Xrven.png?ixlib=java-2.1.0&w=500&s=cf203518eda5a4c426c532caef6cdfc2",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/rGAB_PzwZbvmNy3V8Xrven.png?ixlib=java-2.1.0&w=500&s=cf203518eda5a4c426c532caef6cdfc2"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 0
+        },
+        {
+          "matchId": "2393564",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/bSRhbVtvK3S64DVmh5XIgi.png?ixlib=java-2.1.0&w=500&s=cb8ce427b9d14f70c00977f44b5b5c52",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/bSRhbVtvK3S64DVmh5XIgi.png?ixlib=java-2.1.0&w=500&s=cb8ce427b9d14f70c00977f44b5b5c52"
+          },
+          "opponentName": "Ground Zero",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/rGAB_PzwZbvmNy3V8Xrven.png?ixlib=java-2.1.0&w=500&s=cf203518eda5a4c426c532caef6cdfc2",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/rGAB_PzwZbvmNy3V8Xrven.png?ixlib=java-2.1.0&w=500&s=cf203518eda5a4c426c532caef6cdfc2"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 0
+        },
+        {
+          "matchId": "2393558",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/bSRhbVtvK3S64DVmh5XIgi.png?ixlib=java-2.1.0&w=500&s=cb8ce427b9d14f70c00977f44b5b5c52",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/bSRhbVtvK3S64DVmh5XIgi.png?ixlib=java-2.1.0&w=500&s=cb8ce427b9d14f70c00977f44b5b5c52"
+          },
+          "opponentName": "Abyssal",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/U7fek6lTSLbntoy7CPINPF.png?ixlib=java-2.1.0&w=500&s=d653dd917590dfa174d3c5bd100ed52d",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/U7fek6lTSLbntoy7CPINPF.png?ixlib=java-2.1.0&w=500&s=d653dd917590dfa174d3c5bd100ed52d"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 1
+        },
+        {
+          "matchId": "2393552",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/bSRhbVtvK3S64DVmh5XIgi.png?ixlib=java-2.1.0&w=500&s=cb8ce427b9d14f70c00977f44b5b5c52",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/bSRhbVtvK3S64DVmh5XIgi.png?ixlib=java-2.1.0&w=500&s=cb8ce427b9d14f70c00977f44b5b5c52"
+          },
+          "opponentName": "low cortisol",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://www.hltv.org/dynamic-svg/teamplaceholder?letter=l",
+            "pngUrl": "https://www.hltv.org/img/static/team/placeholder.png"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 0
+        },
+        {
+          "matchId": "2391754",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4"
+          },
+          "opponentName": "SemperFi",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/AhNio82uoOBO6dVCMCgDx-.png?ixlib=java-2.1.0&w=500&s=6d0ef37ed1d5e1235dce28a000c2668a",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/AhNio82uoOBO6dVCMCgDx-.png?ixlib=java-2.1.0&w=500&s=6d0ef37ed1d5e1235dce28a000c2668a"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 0
+        },
+        {
+          "matchId": "2391751",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4"
+          },
+          "opponentName": "SemperFi",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/AhNio82uoOBO6dVCMCgDx-.png?ixlib=java-2.1.0&w=500&s=6d0ef37ed1d5e1235dce28a000c2668a",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/AhNio82uoOBO6dVCMCgDx-.png?ixlib=java-2.1.0&w=500&s=6d0ef37ed1d5e1235dce28a000c2668a"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 1
+        },
+        {
+          "matchId": "2391750",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4"
+          },
+          "opponentName": "Arcade",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/c267mZKKYbmx4zJQoc1ds2.png?ixlib=java-2.1.0&w=500&s=8b892c68f7fdec8469ca23a492f8791c",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/c267mZKKYbmx4zJQoc1ds2.png?ixlib=java-2.1.0&w=500&s=8b892c68f7fdec8469ca23a492f8791c"
+          },
+          "outcome": "WON",
+          "teamScore": 13,
+          "opponentScore": 7
+        },
+        {
+          "matchId": "2391745",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4"
+          },
+          "opponentName": "Ground Zero",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/rGAB_PzwZbvmNy3V8Xrven.png?ixlib=java-2.1.0&w=500&s=cf203518eda5a4c426c532caef6cdfc2",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/rGAB_PzwZbvmNy3V8Xrven.png?ixlib=java-2.1.0&w=500&s=cf203518eda5a4c426c532caef6cdfc2"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 1
+        },
+        {
+          "matchId": "2391743",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4"
+          },
+          "opponentName": "Time Waves",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/HgdYAKgYfAgg5VzIJ0_DYM.png?ixlib=java-2.1.0&w=500&s=5d258bae9d7120fc98cec8861563ef4c",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/HgdYAKgYfAgg5VzIJ0_DYM.png?ixlib=java-2.1.0&w=500&s=5d258bae9d7120fc98cec8861563ef4c"
+          },
+          "outcome": "WON",
+          "teamScore": 13,
+          "opponentScore": 2
+        },
+        {
+          "matchId": "2391399",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4"
+          },
+          "opponentName": "SemperFi",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/AhNio82uoOBO6dVCMCgDx-.png?ixlib=java-2.1.0&w=500&s=6d0ef37ed1d5e1235dce28a000c2668a",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/AhNio82uoOBO6dVCMCgDx-.png?ixlib=java-2.1.0&w=500&s=6d0ef37ed1d5e1235dce28a000c2668a"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 1
+        },
+        {
+          "matchId": "2391398",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4"
+          },
+          "opponentName": "Ground Zero",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/rGAB_PzwZbvmNy3V8Xrven.png?ixlib=java-2.1.0&w=500&s=cf203518eda5a4c426c532caef6cdfc2",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/rGAB_PzwZbvmNy3V8Xrven.png?ixlib=java-2.1.0&w=500&s=cf203518eda5a4c426c532caef6cdfc2"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 1
+        },
+        {
+          "matchId": "2391396",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4"
+          },
+          "opponentName": "SemperFi",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/AhNio82uoOBO6dVCMCgDx-.png?ixlib=java-2.1.0&w=500&s=6d0ef37ed1d5e1235dce28a000c2668a",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/AhNio82uoOBO6dVCMCgDx-.png?ixlib=java-2.1.0&w=500&s=6d0ef37ed1d5e1235dce28a000c2668a"
+          },
+          "outcome": "LOST",
+          "teamScore": 0,
+          "opponentScore": 2
+        },
+        {
+          "matchId": "2391394",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4"
+          },
+          "opponentName": "Mindfreak",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/JXoqNVZaSa0PHYSnfNeJGO.png?ixlib=java-2.1.0&w=500&s=fe66bd4ed685cfbffd19181fae4d6b86",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/JXoqNVZaSa0PHYSnfNeJGO.png?ixlib=java-2.1.0&w=500&s=fe66bd4ed685cfbffd19181fae4d6b86"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 0
+        },
+        {
+          "matchId": "2391386",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4"
+          },
+          "opponentName": "Ground Zero",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/rGAB_PzwZbvmNy3V8Xrven.png?ixlib=java-2.1.0&w=500&s=cf203518eda5a4c426c532caef6cdfc2",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/rGAB_PzwZbvmNy3V8Xrven.png?ixlib=java-2.1.0&w=500&s=cf203518eda5a4c426c532caef6cdfc2"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 1
+        },
+        {
+          "matchId": "2391384",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4"
+          },
+          "opponentName": "Time Waves",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/HgdYAKgYfAgg5VzIJ0_DYM.png?ixlib=java-2.1.0&w=500&s=5d258bae9d7120fc98cec8861563ef4c",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/HgdYAKgYfAgg5VzIJ0_DYM.png?ixlib=java-2.1.0&w=500&s=5d258bae9d7120fc98cec8861563ef4c"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 0
+        },
+        {
+          "matchId": "2390852",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4"
+          },
+          "opponentName": "Legion",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/E1Mbu8dLgT84ihEYQDnwGI.png?ixlib=java-2.1.0&w=500&s=8fbf222cd48259578503b8c50287c7a3",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/E1Mbu8dLgT84ihEYQDnwGI.png?ixlib=java-2.1.0&w=500&s=8fbf222cd48259578503b8c50287c7a3"
+          },
+          "outcome": "LOST",
+          "teamScore": 1,
+          "opponentScore": 2
+        },
+        {
+          "matchId": "2390623",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4"
+          },
+          "opponentName": "Mindfreak",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/JXoqNVZaSa0PHYSnfNeJGO.png?ixlib=java-2.1.0&w=500&s=fe66bd4ed685cfbffd19181fae4d6b86",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/JXoqNVZaSa0PHYSnfNeJGO.png?ixlib=java-2.1.0&w=500&s=fe66bd4ed685cfbffd19181fae4d6b86"
+          },
+          "outcome": "LOST",
+          "teamScore": 0,
+          "opponentScore": 3
+        },
+        {
+          "matchId": "2390851",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4"
+          },
+          "opponentName": "The Huns",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/VgVw2z9BmJJ2knbbyXeDfc.png?ixlib=java-2.1.0&w=500&s=126ce10c16c14fc2d3a8bd64960ec85c",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/VgVw2z9BmJJ2knbbyXeDfc.png?ixlib=java-2.1.0&w=500&s=126ce10c16c14fc2d3a8bd64960ec85c"
+          },
+          "outcome": "LOST",
+          "teamScore": 0,
+          "opponentScore": 2
+        },
+        {
+          "matchId": "2390620",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4"
+          },
+          "opponentName": "Ground Zero",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/rGAB_PzwZbvmNy3V8Xrven.png?ixlib=java-2.1.0&w=500&s=cf203518eda5a4c426c532caef6cdfc2",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/rGAB_PzwZbvmNy3V8Xrven.png?ixlib=java-2.1.0&w=500&s=cf203518eda5a4c426c532caef6cdfc2"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 1
+        },
+        {
+          "matchId": "2390842",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4"
+          },
+          "opponentName": "Mindfreak",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/JXoqNVZaSa0PHYSnfNeJGO.png?ixlib=java-2.1.0&w=500&s=fe66bd4ed685cfbffd19181fae4d6b86",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/JXoqNVZaSa0PHYSnfNeJGO.png?ixlib=java-2.1.0&w=500&s=fe66bd4ed685cfbffd19181fae4d6b86"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 0
+        },
+        {
+          "matchId": "2390840",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4"
+          },
+          "opponentName": "Mindfreak",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/JXoqNVZaSa0PHYSnfNeJGO.png?ixlib=java-2.1.0&w=500&s=fe66bd4ed685cfbffd19181fae4d6b86",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/JXoqNVZaSa0PHYSnfNeJGO.png?ixlib=java-2.1.0&w=500&s=fe66bd4ed685cfbffd19181fae4d6b86"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 0
+        },
+        {
+          "matchId": "2390794",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4"
+          },
+          "opponentName": "Ground Zero",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/rGAB_PzwZbvmNy3V8Xrven.png?ixlib=java-2.1.0&w=500&s=cf203518eda5a4c426c532caef6cdfc2",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/rGAB_PzwZbvmNy3V8Xrven.png?ixlib=java-2.1.0&w=500&s=cf203518eda5a4c426c532caef6cdfc2"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 0
+        },
+        {
+          "matchId": "2390617",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4"
+          },
+          "opponentName": "Abyssal",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/U7fek6lTSLbntoy7CPINPF.png?ixlib=java-2.1.0&w=500&s=d653dd917590dfa174d3c5bd100ed52d",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/U7fek6lTSLbntoy7CPINPF.png?ixlib=java-2.1.0&w=500&s=d653dd917590dfa174d3c5bd100ed52d"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 0
+        },
+        {
+          "matchId": "2390515",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4"
+          },
+          "opponentName": "Ground Zero",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/rGAB_PzwZbvmNy3V8Xrven.png?ixlib=java-2.1.0&w=500&s=cf203518eda5a4c426c532caef6cdfc2",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/rGAB_PzwZbvmNy3V8Xrven.png?ixlib=java-2.1.0&w=500&s=cf203518eda5a4c426c532caef6cdfc2"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 1
+        },
+        {
+          "matchId": "2390512",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4"
+          },
+          "opponentName": "Ground Zero",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/rGAB_PzwZbvmNy3V8Xrven.png?ixlib=java-2.1.0&w=500&s=cf203518eda5a4c426c532caef6cdfc2",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/rGAB_PzwZbvmNy3V8Xrven.png?ixlib=java-2.1.0&w=500&s=cf203518eda5a4c426c532caef6cdfc2"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 0
+        },
+        {
+          "matchId": "2390509",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4"
+          },
+          "opponentName": "Skele",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/I_btLKX1OoO4OAbWErdX_B.png?ixlib=java-2.1.0&w=500&s=e7b88c3a8b97c8e53861f6e972e81841",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/I_btLKX1OoO4OAbWErdX_B.png?ixlib=java-2.1.0&w=500&s=e7b88c3a8b97c8e53861f6e972e81841"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 0
+        },
+        {
+          "matchId": "2390503",
+          "teamName": "THUNDER dOWNUNDER",
+          "teamLogo": {
+            "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4",
+            "pngUrl": "https://img-cdn.hltv.org/teamlogo/ipxSKA_nUU-nuW7BenfE2h.png?ixlib=java-2.1.0&w=500&s=00fcae07ac435475bcfd0835fa0bd9b4"
+          },
+          "opponentName": "BBBMBCBS",
+          "opponentLogo": {
+            "svgOrPngUrl": "https://www.hltv.org/dynamic-svg/teamplaceholder?letter=B",
+            "pngUrl": "https://www.hltv.org/img/static/team/placeholder.png"
+          },
+          "outcome": "WON",
+          "teamScore": 2,
+          "opponentScore": 0
+        }
+      ],
+      "pickAWinnerData": {
+        "team1WinnerPercentage": "25.0%",
+        "team2WinnerPercentage": "75.0%"
+      },
+      "eventBanner": "https://img-cdn.hltv.org/eventbanner/StvYpnVtqQbz7W0eBOm4ti.png?ixlib=java-2.1.0&w=1276&s=542a35757b3a66d5ae661996e6f4e992",
+      "eventGroupings": null,
+      "bracketGroupings": [
+        {
+          "name": "Group Stage",
+          "brackets": [
+            {
+              "name": "Group B",
+              "embedUrl": "https://www.hltv.org/mobile/embeds/Brackets?eventId=8587&bracketId=5056",
+              "collapsed": false
+            }
+          ]
+        }
+      ]
+    },
+    "commentData": {
+      "discussionId": "3140724",
+      "replies": [
+        {
+          "replyId": "69181919",
+          "replyNumber": 1,
+          "replyContent": [
+            {
+              "text": {
+                "text": "This time TJP is gonna be drunk so there is literally no chance for haunted house"
+              },
+              "defaultText": "This time TJP is gonna be drunk so there is literally no chance for haunted house"
+            }
+          ],
+          "totalChildrenReplies": 1,
+          "replyUser": {
+            "userId": 1040680,
+            "name": "aZZtec",
+            "countryFlag": "https://www.hltv.org/img/static/flags/30x20/VU.gif",
+            "loveTeam": null,
+            "badges": []
+          },
+          "replies": [
+            {
+              "replyId": "69182282",
+              "replyNumber": 3,
+              "replyContent": [
+                {
+                  "text": {
+                    "text": "Hope he brought a few VB's to China."
+                  },
+                  "defaultText": "Hope he brought a few VB's to China."
+                }
+              ],
+              "totalChildrenReplies": 0,
+              "replyUser": {
+                "userId": 1702542,
+                "name": "Wizphae",
+                "countryFlag": "https://www.hltv.org/img/static/flags/30x20/AU.gif",
+                "loveTeam": {
+                  "name": "THUNDER dOWNUNDER",
+                  "image": {
+                    "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/bSRhbVtvK3S64DVmh5XIgi.png?ixlib=java-2.1.0&w=500&s=cb8ce427b9d14f70c00977f44b5b5c52",
+                    "pngUrl": "https://img-cdn.hltv.org/teamlogo/bSRhbVtvK3S64DVmh5XIgi.png?ixlib=java-2.1.0&w=500&s=cb8ce427b9d14f70c00977f44b5b5c52"
+                  }
+                },
+                "badges": []
+              },
+              "replies": [],
+              "time": "2026-05-13T08:58:53Z",
+              "editedTime": null,
+              "plusCount": 6,
+              "plusSelected": false
+            }
+          ],
+          "time": "2026-05-13T07:32:25Z",
+          "editedTime": null,
+          "plusCount": 9,
+          "plusSelected": false
+        },
+        {
+          "replyId": "69182231",
+          "replyNumber": 2,
+          "replyContent": [
+            {
+              "text": {
+                "text": "upper u 322\nlower u win\nrepeat\nget rich"
+              },
+              "defaultText": "upper u 322\nlower u win\nrepeat\nget rich"
+            }
+          ],
+          "totalChildrenReplies": 0,
+          "replyUser": {
+            "userId": 1689674,
+            "name": "alliseeis322",
+            "countryFlag": "https://www.hltv.org/img/static/flags/30x20/DJ.gif",
+            "loveTeam": null,
+            "badges": []
+          },
+          "replies": [],
+          "time": "2026-05-13T08:53:26Z",
+          "editedTime": null,
+          "plusCount": 2,
+          "plusSelected": false
+        },
+        {
+          "replyId": "69182326",
+          "replyNumber": 4,
+          "replyContent": [
+            {
+              "text": {
+                "text": "YEAH THE THUNDER"
+              },
+              "defaultText": "YEAH THE THUNDER"
+            }
+          ],
+          "totalChildrenReplies": 0,
+          "replyUser": {
+            "userId": 1777703,
+            "name": "Falcons_RAMZES666",
+            "countryFlag": "https://www.hltv.org/img/static/flags/30x20/ENG.gif",
+            "loveTeam": {
+              "name": "THUNDER dOWNUNDER",
+              "image": {
+                "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/bSRhbVtvK3S64DVmh5XIgi.png?ixlib=java-2.1.0&w=500&s=cb8ce427b9d14f70c00977f44b5b5c52",
+                "pngUrl": "https://img-cdn.hltv.org/teamlogo/bSRhbVtvK3S64DVmh5XIgi.png?ixlib=java-2.1.0&w=500&s=cb8ce427b9d14f70c00977f44b5b5c52"
+              }
+            },
+            "badges": []
+          },
+          "replies": [],
+          "time": "2026-05-13T09:03:42Z",
+          "editedTime": null,
+          "plusCount": 3,
+          "plusSelected": false
+        },
+        {
+          "replyId": "69182585",
+          "replyNumber": 5,
+          "replyContent": [
+            {
+              "text": {
+                "text": "thunder always strikes harder the 2nd time"
+              },
+              "defaultText": "thunder always strikes harder the 2nd time"
+            }
+          ],
+          "totalChildrenReplies": 0,
+          "replyUser": {
+            "userId": 1565304,
+            "name": "EZ4SEXTER",
+            "countryFlag": "https://www.hltv.org/img/static/flags/30x20/AU.gif",
+            "loveTeam": null,
+            "badges": []
+          },
+          "replies": [],
+          "time": "2026-05-13T09:49:54Z",
+          "editedTime": null,
+          "plusCount": 6,
+          "plusSelected": false
+        },
+        {
+          "replyId": "69183233",
+          "replyNumber": 7,
+          "replyContent": [
+            {
+              "text": {
+                "text": "this is just stupid ngl"
+              },
+              "defaultText": "this is just stupid ngl"
+            }
+          ],
+          "totalChildrenReplies": 0,
+          "replyUser": {
+            "userId": 1081706,
+            "name": "solluminati",
+            "countryFlag": "https://www.hltv.org/img/static/flags/30x20/US.gif",
+            "loveTeam": null,
+            "badges": []
+          },
+          "replies": [],
+          "time": "2026-05-13T11:43:41Z",
+          "editedTime": null,
+          "plusCount": 0,
+          "plusSelected": false
+        },
+        {
+          "replyId": "69184169",
+          "replyNumber": 8,
+          "replyContent": [
+            {
+              "text": {
+                "text": "pls win map 2 honted huse"
+              },
+              "defaultText": "pls win map 2 honted huse"
+            }
+          ],
+          "totalChildrenReplies": 0,
+          "replyUser": {
+            "userId": 1901873,
+            "name": "NAF_MajorWinner2026",
+            "countryFlag": "https://www.hltv.org/img/static/flags/30x20/AT.gif",
+            "loveTeam": {
+              "name": "Liquid",
+              "image": {
+                "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/JMeLLbWKCIEJrmfPaqOz4O.svg?ixlib=java-2.1.0&s=c02caf90234d3a3ebac074c84ba1ea62",
+                "pngUrl": "https://img-cdn.hltv.org/teamlogo/JMeLLbWKCIEJrmfPaqOz4O.svg?fm=png&ixlib=java-2.1.0&w=500&s=ac6177be8a52b57eac2bbadfc173e516"
+              }
+            },
+            "badges": []
+          },
+          "replies": [],
+          "time": "2026-05-13T13:33:50Z",
+          "editedTime": null,
+          "plusCount": 0,
+          "plusSelected": false
+        },
+        {
+          "replyId": "69184208",
+          "replyNumber": 9,
+          "replyContent": [
+            {
+              "text": {
+                "text": "thunder downunder > flyquest confirmed?"
+              },
+              "defaultText": "thunder downunder > flyquest confirmed?"
+            }
+          ],
+          "totalChildrenReplies": 1,
+          "replyUser": {
+            "userId": 1958638,
+            "name": "SiIky",
+            "countryFlag": "https://www.hltv.org/img/static/flags/30x20/US.gif",
+            "loveTeam": null,
+            "badges": []
+          },
+          "replies": [
+            {
+              "replyId": "69186018",
+              "replyNumber": 14,
+              "replyContent": [
+                {
+                  "text": {
+                    "text": "until we get that match that we all waiting for one day we will see them face each other and it will be a good one when we do!"
+                  },
+                  "defaultText": "until we get that match that we all waiting for one day we will see them face each other and it will be a good one when we do!"
+                }
+              ],
+              "totalChildrenReplies": 0,
+              "replyUser": {
+                "userId": 1944761,
+                "name": "x_Karma_x",
+                "countryFlag": "https://www.hltv.org/img/static/flags/30x20/US.gif",
+                "loveTeam": {
+                  "name": "Grayhound",
+                  "image": {
+                    "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/IjyAECYg-7zLXJEUj-aRqa.svg?ixlib=java-2.1.0&s=def9c53f5b91c85af4a5a0a6f2606d26",
+                    "pngUrl": "https://img-cdn.hltv.org/teamlogo/IjyAECYg-7zLXJEUj-aRqa.svg?fm=png&ixlib=java-2.1.0&w=500&s=9d86b4706f6c7892930bd387561e0918"
+                  }
+                },
+                "badges": []
+              },
+              "replies": [],
+              "time": "2026-05-13T16:54:27Z",
+              "editedTime": null,
+              "plusCount": 0,
+              "plusSelected": false
+            }
+          ],
+          "time": "2026-05-13T13:37:43Z",
+          "editedTime": null,
+          "plusCount": 2,
+          "plusSelected": false
+        },
+        {
+          "replyId": "69184412",
+          "replyNumber": 10,
+          "replyContent": [
+            {
+              "text": {
+                "text": "ez for uzbeks"
+              },
+              "defaultText": "ez for uzbeks"
+            }
+          ],
+          "totalChildrenReplies": 0,
+          "replyUser": {
+            "userId": 1544288,
+            "name": "qu1ck_13",
+            "countryFlag": "https://www.hltv.org/img/static/flags/30x20/UZ.gif",
+            "loveTeam": null,
+            "badges": [
+              {
+                "description": "Faceit level 9",
+                "url": "/img/static/badges/faceit9.svg"
+              }
+            ]
+          },
+          "replies": [],
+          "time": "2026-05-13T14:09:19Z",
+          "editedTime": null,
+          "plusCount": 1,
+          "plusSelected": false
+        },
+        {
+          "replyId": "69184501",
+          "replyNumber": 11,
+          "replyContent": [
+            {
+              "text": {
+                "text": "nice try uzbeks, it was close"
+              },
+              "defaultText": "nice try uzbeks, it was close"
+            }
+          ],
+          "totalChildrenReplies": 0,
+          "replyUser": {
+            "userId": 2047174,
+            "name": "drrr",
+            "countryFlag": "https://www.hltv.org/img/static/flags/30x20/LV.gif",
+            "loveTeam": null,
+            "badges": []
+          },
+          "replies": [],
+          "time": "2026-05-13T14:21:13Z",
+          "editedTime": null,
+          "plusCount": 1,
+          "plusSelected": false
+        },
+        {
+          "replyId": "69184582",
+          "replyNumber": 13,
+          "replyContent": [
+            {
+              "text": {
+                "text": "step by step lads"
+              },
+              "defaultText": "step by step lads"
+            }
+          ],
+          "totalChildrenReplies": 0,
+          "replyUser": {
+            "userId": 1777703,
+            "name": "Falcons_RAMZES666",
+            "countryFlag": "https://www.hltv.org/img/static/flags/30x20/ENG.gif",
+            "loveTeam": {
+              "name": "THUNDER dOWNUNDER",
+              "image": {
+                "svgOrPngUrl": "https://img-cdn.hltv.org/teamlogo/bSRhbVtvK3S64DVmh5XIgi.png?ixlib=java-2.1.0&w=500&s=cb8ce427b9d14f70c00977f44b5b5c52",
+                "pngUrl": "https://img-cdn.hltv.org/teamlogo/bSRhbVtvK3S64DVmh5XIgi.png?ixlib=java-2.1.0&w=500&s=cb8ce427b9d14f70c00977f44b5b5c52"
+              }
+            },
+            "badges": []
+          },
+          "replies": [],
+          "time": "2026-05-13T14:38:14Z",
+          "editedTime": null,
+          "plusCount": 1,
+          "plusSelected": false
+        }
+      ],
+      "totalReplies": 12
+    },
+    "userMatchData": {
+      "canPickWinner": false,
+      "winnerVote": null
+    }
+  }
+}

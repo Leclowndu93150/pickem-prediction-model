@@ -17,7 +17,14 @@ from pathlib import Path
 from typing import Any
 
 
-DEFAULT_CACHE_DIR = Path.home() / ".cache" / "hltv"
+def _default_cache_dir() -> Path:
+    override = os.environ.get("HLTV_CACHE_DIR")
+    if override:
+        return Path(override)
+    return Path.home() / ".cache" / "hltv"
+
+
+DEFAULT_CACHE_DIR = _default_cache_dir()
 
 # Per-path TTL in seconds. Match against the API path; first prefix hit wins.
 # Use 0 to bypass cache, -1 for "forever".
@@ -93,7 +100,7 @@ class DiskCache:
         base_dir: str | Path | None = None,
         enabled: bool = True,
     ) -> None:
-        self.base = Path(base_dir or DEFAULT_CACHE_DIR)
+        self.base = Path(base_dir or _default_cache_dir())
         self.enabled = enabled
         self.base.mkdir(parents=True, exist_ok=True)
         self._lock = threading.Lock()

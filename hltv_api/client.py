@@ -12,6 +12,7 @@ fingerprint so requests are not rejected with HTTP 403.
 from __future__ import annotations
 
 import random
+import threading
 import time
 from pathlib import Path
 from typing import Any
@@ -117,19 +118,12 @@ class HLTVClient:
                 if default_proxy_file.exists()
                 else None
             )
-        self.session = _curl_requests.Session(impersonate=impersonate)
-        self.session.headers.update(
-            {
-                "User-Agent": user_agent or self._default_user_agent(),
-                "Referer": WEB_REFERER,
-                "Accept": "application/json, text/plain, */*",
-                "Accept-Language": "en-US,en;q=0.9",
-            }
-        )
-        if session_id:
-            self.session.cookies.set("PHPSESSID", session_id, domain=".hltv.org")
-        if autologin:
-            self.session.cookies.set("autologin", autologin, domain=".hltv.org")
+        self._impersonate = impersonate
+        self._user_agent = user_agent or self._default_user_agent()
+        self._session_id = session_id
+        self._autologin = autologin
+        self._tls = threading.local()
+        self.session = self._make_session()
 
         if isinstance(cache, DiskCache):
             self.cache = cache
@@ -143,6 +137,29 @@ class HLTVClient:
         """Build a User-Agent string mimicking the HLTV Android app."""
         device = random.choice(_ANDROID_DEVICES)
         return f"{PACKAGE}/{APP_VERSION};release(Android; {device})"
+
+    def _make_session(self):
+        s = _curl_requests.Session(impersonate=self._impersonate)
+        s.headers.update(
+            {
+                "User-Agent": self._user_agent,
+                "Referer": WEB_REFERER,
+                "Accept": "application/json, text/plain, */*",
+                "Accept-Language": "en-US,en;q=0.9",
+            }
+        )
+        if self._session_id:
+            s.cookies.set("PHPSESSID", self._session_id, domain=".hltv.org")
+        if self._autologin:
+            s.cookies.set("autologin", self._autologin, domain=".hltv.org")
+        return s
+
+    def _session(self):
+        s = getattr(self._tls, "session", None)
+        if s is None:
+            s = self._make_session()
+            self._tls.session = s
+        return s
 
     def _request(
         self,
@@ -168,7 +185,7 @@ class HLTVClient:
         for attempt in range(self.max_retries + 1):
             proxy = self.proxy_pool.acquire() if self.proxy_pool else None
             try:
-                resp = self.session.request(
+                resp = self._session().request(
                     method,
                     url,
                     params=params,
@@ -1379,7 +1396,7 @@ class HLTVClient:
         """
         from concurrent.futures import ThreadPoolExecutor
 
-        workers = max_workers or (24 if self.proxy_pool else 8)
+        workers = max_workers or (128 if self.proxy_pool else 8)
         with ThreadPoolExecutor(max_workers=workers) as ex:
             results = list(ex.map(self.get_team, team_ids))
         return results
@@ -1390,7 +1407,7 @@ class HLTVClient:
         """Fetch many players in parallel; see :py:meth:`bulk_teams`."""
         from concurrent.futures import ThreadPoolExecutor
 
-        workers = max_workers or (24 if self.proxy_pool else 8)
+        workers = max_workers or (128 if self.proxy_pool else 8)
         with ThreadPoolExecutor(max_workers=workers) as ex:
             return list(ex.map(self.get_player, player_ids))
 
@@ -1400,7 +1417,7 @@ class HLTVClient:
         """Fetch many full match payloads in parallel."""
         from concurrent.futures import ThreadPoolExecutor
 
-        workers = max_workers or (24 if self.proxy_pool else 8)
+        workers = max_workers or (128 if self.proxy_pool else 8)
         with ThreadPoolExecutor(max_workers=workers) as ex:
             return list(ex.map(self.get_match, match_ids))
 

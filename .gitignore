@@ -9,11 +9,12 @@ dist/
 venv/
 
 # local caches, secrets, and runtime data
-cache/
-data/
+# (the committed cache/ contains seeded snapshots; users without proxies
+# can run the model offline against it. fresh fetches still write here.)
 .secrets/
 probe_report.json
 probe_output.log
+prefetch.log
 
 # editor / OS
 .idea/

@@ -14,6 +14,85 @@ Two packages live in this repo:
 - `pickem/` - Swiss-format Monte-Carlo simulator and ticket optimizer
   for the HLTV Major pickem challenge (2x 3-0, 6x advance, 2x 0-3).
 
+## Results so far
+
+### Backtest
+
+Running the model at the pickem deadline of each event (cutoff = first
+match start time), then scoring the top ticket against the actual
+Swiss final records:
+
+| Event | Model | VRS baseline | Rank baseline | Cleared 5/10 |
+|---|---:|---:|---:|---|
+| PGL Astana 2026 | 6/10 | 6/10 | 7/10 | yes |
+| IEM Cologne Major 2026 Stage 1 | 7/10 | 6/10 | 5/10 | yes |
+| IEM Cologne Major 2026 Stage 2 | 5/10 | 5/10 | 5/10 | yes |
+| **Average** | **6.0/10** | **5.7/10** | **5.7/10** | 3/3 |
+
+Baselines:
+
+- **VRS:** top-2 by VRS points -> 3-0, next 6 -> advance, bottom 2 -> 0-3.
+- **Rank:** same idea using HLTV world rank.
+
+Notes and caveats:
+
+- 3 events is a tiny sample. The model beats the rank baseline by
+  0.3/10 on average and ties VRS on two of three. Real significance
+  would need 20+ stages.
+- All three events are within ~5 weeks of "today" (June 2026), so
+  today's HLTV team/player data is a reasonable proxy for the team
+  data that existed at each cutoff. Backtests on older events (Austin
+  Major 2025, IEM Cologne 2025) showed worse numbers, mostly because
+  rosters and rankings have drifted since.
+- A blend-weight sweep (`pure_elo`, `vrs_only_*`, `small_blends`,
+  `tiny_blends`) produced the **same** correct counts on these 3
+  events. The blends mostly affect the optimizer's confidence
+  (`P(>=5)`), not which ticket it picks for this small sample.
+- Predicted `P(>=5)` on the three events was 84.4%, 63.5%, 46.0%
+  respectively. Actual hit rate was 3/3. So far, slightly
+  under-confident on Stages 1 and 2, well-calibrated on PGL Astana.
+
+### Stage 3 prediction (IEM Cologne Major 2026, R1 begins 2026-06-11)
+
+Top ticket from 20,000 Monte-Carlo runs with the Stage 2 carryover
+records folded in:
+
+| Slot | Team | Marginal P |
+|---|---|---:|
+| 3-0 | Vitality | 38% |
+| 3-0 | Spirit | 38% |
+| advance | Falcons | P(3-1 or 3-2) = 54% |
+| advance | Natus Vincere | 58% |
+| advance | FURIA | 51% |
+| advance | Aurora | 51% |
+| advance | G2 | 47% |
+| advance | The MongolZ | 36% |
+| 0-3 | 9z | 36% |
+| 0-3 | B8 | 32% |
+
+Model says `P(>=5 correct) = 46.5%`, `E[correct] = 4.4 / 10`. The
+distribution: 24% chance of exactly 5 correct, 14% of 6, 6% of 7,
+2% of 8.
+
+Reproduce with:
+
+```bash
+HLTV_CACHE_DIR=cache python3 stage3.py --cache-dir cache --n-sims 20000
+```
+
+### Performance note
+
+The full simulation pipeline (build strengths -> Monte Carlo -> ticket
+optimization) takes **roughly 10 minutes per event** at 20,000 sims
+when running against the bundled cache. Most of that time is in the
+ticket enumeration (`pickem/optimize.best_tickets`) rather than the
+Swiss simulator itself, because every candidate ticket is scored
+against every saved sim.
+
+If you want a faster turnaround during exploration, drop `--n-sims`
+to 5,000-10,000. The optimal ticket is usually identical; only the
+confidence numbers move.
+
 ## Install
 
 Requires Python 3.10+.
@@ -66,6 +145,32 @@ events, teams, players, rankings, search, forum, fantasy, articles).
 
 GET responses are cached on disk so re-running scripts doesn't hammer
 the API. Default location is `~/.cache/hltv`.
+
+The repo ships with a pre-seeded `cache/` directory containing every
+team, player, and match needed to run the model against the current
+IEM Cologne Major 2026 (event 8301, Stages 1 and 2 played, Stage 3
+upcoming) and two backtest targets (IEM Atlanta 2026 and PGL Astana
+2026). If you don't have proxies and don't want to hit HLTV, point
+the client at the bundled cache:
+
+```python
+from hltv_api import HLTVClient, DiskCache
+client = HLTVClient(cache=DiskCache(base_dir="cache"), proxy_pool=False)
+```
+
+The CLIs auto-detect a `./cache` directory via the `HLTV_CACHE_DIR`
+environment variable:
+
+```bash
+HLTV_CACHE_DIR=cache python -m pickem.run --event-id 9028 --cutoff 2026-06-02T10:30:00Z
+```
+
+To refresh or extend the bundled cache (needs proxies for any volume
+of fetching):
+
+```bash
+python prefetch.py --cache-dir cache --workers 128
+```
 
 ```python
 from hltv_api import HLTVClient, DiskCache
