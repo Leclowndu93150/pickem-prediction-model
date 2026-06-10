@@ -244,7 +244,17 @@ def main(event_id: int, cutoff: datetime, n_sims: int) -> int:
     else:
         print("  (no R1 pairings known yet - sims will pair R1 randomly)")
 
+    min_maps_seen: list[int] = []
+    for raw_match in ev.raw.get("results", []) + ev.raw.get("matches", []):
+        t1 = (raw_match.get("team1") or {}).get("teamId")
+        t2 = (raw_match.get("team2") or {}).get("teamId")
+        min_maps = raw_match.get("minMaps")
+        if t1 and t2 and min_maps is not None:
+            min_maps_seen.append(int(min_maps))
+    all_matches_bo3 = bool(min_maps_seen) and all(v >= 2 for v in min_maps_seen)
+
     print(f"\nSimulating Swiss x {n_sims:,}...")
+    print(f"  format: {'all BO3' if all_matches_bo3 else 'mixed BO1/BO3'}")
     initial_seeds = simulator_initial_seeds(event_id, set(team_ids))
     if initial_seeds:
         print("  using exact initial seeds from the HLTV web simulator")
@@ -255,6 +265,7 @@ def main(event_id: int, cutoff: datetime, n_sims: int) -> int:
         seed=42,
         r1_pairings=r1,
         initial_seeds=initial_seeds or None,
+        all_matches_bo3=all_matches_bo3,
     )
 
     print("\n=== Marginal probabilities ===")

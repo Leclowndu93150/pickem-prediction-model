@@ -155,7 +155,12 @@ expected-value pickem ticket. The simulator implements Valve's actual
 Swiss rules:
 
 - 3 wins advance, 3 losses eliminate.
-- Advancement/elimination matches are BO3; all other matches are BO1.
+- Match format depends on the stage:
+  - Stages 1 and 2: advancement and elimination matches (records
+    2-x or x-2) are BO3, all other matches are BO1.
+  - Stage 3: every match is BO3.
+  - The simulator auto-detects the format from the event's `minMaps`
+    field in the API, so you don't have to flag the stage manually.
 - Round 1 pairs by initial seed: 1v9, 2v10, ..., 8v16.
 - Within a record bucket, teams sort by current W-L, then Buchholz
   (sum of opponent W - L), then initial seed. The highest seed plays
