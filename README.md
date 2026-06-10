@@ -168,16 +168,70 @@ Swiss rules:
 - In the 6-team round-4+ bucket, the priority table from the Major
   Supplemental Rulebook is applied.
 
-The matchup model layers:
+The matchup model layers, grouped by where they enter the pipeline:
 
-1. Elo seeded from world rank + VRS points.
-2. Roster Rating 3.0 mean.
-3. Margin-aware Elo replay of every pre-cutoff map (Glicko-style
-   margin multiplier).
-4. Recent-form exponential decay (legacy signal).
-5. H2H Bayesian prior.
-6. VRS forecast prior from the latest match payload.
-7. Per-map win-rate edge for BO3 simulation with realistic veto.
+**Base Elo seeding** (`_elo_from_rank`):
+
+1. HLTV world rank (`~2000` for #1, drops ~15 per position, floor 1200).
+2. VRS points (Valve Regional Standings, centred at 1500).
+
+**Pre-map adjustments to base Elo** (`build_team_strengths`):
+
+3. Roster Rating 3.0 mean (`+500 * (avg_rating - 1.00)`).
+4. Previous-stage carryover for Stages 2/3 (`+70` Elo for a 3-0
+   carry, `+38` for 3-1, `+18` for 3-2).
+5. Big-event pedigree: time-decayed placement history at past
+   LANs, tier-weighted (Major > IEM/PGL/BLAST/ESL > qualifier), capped
+   at `+55 / -20` Elo.
+6. Player trend: rising vs falling roster share from
+   `PlayerStats.ratingTrend` (`+30 * net`).
+7. 3-month rating delta: `+250 * (3mo_avg - season_avg)`.
+8. Post-match style stats (opening kills, multi-kills, pistol rounds,
+   flash assists, clutches). Off by default behind a flag; the
+   aggregate is not yet predictive enough.
+
+**Margin-aware Elo map replay** (`_walk_maps_for_elo`):
+
+9. Glicko-style margin multiplier applied to every pre-cutoff map.
+   16-3 stomps move Elo more than 16-14 squeakers; OT losses barely
+   move it.
+
+**Recent-form signal** (`_recent_form_*`):
+
+10. Exponentially-weighted recent W/L. Preferred source is the
+    MatchScreen `formMatches` block (snapshot at match time, avoids
+    leaking today's roster into old backtests); falls back to
+    `team.recentMatches`.
+11. Form is floored if the team carried into the stage with a
+    qualifying record (3-0 -> 0.85, 3-1 -> 0.72, 3-2 -> 0.62).
+
+**Per-matchup blend** (`matchup_p_bo1`):
+
+12. H2H Bayesian prior (smoothed with a 0.5 prior, weight 2.0).
+13. VRS forecast prior pulled from each team's latest match
+    payload (HLTV's own implied model).
+14. Per-map win-rate edge using `_map_comfort`: combines win rate,
+    played count, pick%, ban%, and CT/T side balance, shrunk toward
+    0.5 on low samples.
+
+**BO3 simulation with veto** (`simulate_bo3_with_veto`):
+
+15. Realistic Major veto: A ban -> B ban -> A pick -> B pick ->
+    A ban -> B ban -> decider. Each team bans the opponent's
+    strongest map and picks its own strongest remaining map.
+16. The BO3 series is played map-by-map, with `matchup_p_bo1`
+    re-evaluated per map using the team's per-map comfort, so a
+    favourite on Inferno but underdog on Nuke gets that mix
+    correctly.
+
+**Simulator inputs** (`simulate_swiss_with_sims`):
+
+17. Exact initial stage seeds from HLTV's web simulator when
+    available, otherwise derived from Elo.
+18. Actual Round 1 pairings from the API (or HLTV's web simulator)
+    when published, otherwise random within the 0-0 bucket.
+19. Buchholz tiebreak (sum of opponent W - L) and the 6-team
+    priority table from Valve's Major Supplemental Rulebook.
 
 ### CLI
 
