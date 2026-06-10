@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# local caches, secrets, and runtime data
+cache/
+data/
+.secrets/
+probe_report.json
+probe_output.log
+
+# editor / OS
+.idea/
+.vscode/
+.DS_Store
