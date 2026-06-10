@@ -95,6 +95,149 @@ If you want a faster turnaround during exploration, drop `--n-sims`
 to 5,000-10,000. The optimal ticket is usually identical; only the
 confidence numbers move.
 
+## Glossary
+
+Counter-Strike, statistics, and CS-specific HLTV terms used throughout
+this repo.
+
+### Competitive format
+
+- **Major.** Valve-sponsored Counter-Strike championship. 32 teams
+  total across three Swiss stages plus an 8-team playoff bracket. The
+  most prestigious tournament in CS.
+- **Swiss bracket.** Tournament format where teams play opponents
+  with the same win-loss record each round. Three wins advance, three
+  losses eliminate. No team plays the same opponent twice in the same
+  stage.
+- **BO1 / BO3.** Best-of-1 (single map) and best-of-3 (first team to
+  win 2 maps). In Stages 1 and 2, advancement and elimination matches
+  (records 2-x or x-2) are BO3 and everything else is BO1. In Stage 3,
+  every match is BO3.
+- **Initial seed.** Pre-event team ordering used by the Swiss
+  pairing rules. Comes from a team's position in the global VRS.
+- **R1 pairing.** First-round pairing, fixed by Valve's rulebook:
+  seed 1 vs seed 9, 2 vs 10, ..., 8 vs 16.
+- **Buchholz score (Difficulty Score).** Sum of wins minus losses of
+  every opponent a team has already faced. Used to break ties when
+  two teams have the same W-L record. Higher Buchholz = harder
+  schedule = higher seed.
+- **Veto.** Map pick/ban process before a series. For BO3 the
+  standard Major sequence is `A ban -> B ban -> A pick -> B pick ->
+  A ban -> B ban -> decider`, where the loser of the last surviving
+  ban picks side on the decider.
+
+### Pickem
+
+- **Pickem.** HLTV's prediction game for the Major. Each player
+  submits one ticket per stage.
+- **Ticket.** A set of 10 picks for a stage: 2 teams to go 3-0,
+  6 teams to "advance" (finish 3-1 or 3-2), and 2 teams to go 0-3.
+  A team placed in the advance slot that goes 3-0 instead counts
+  as **wrong**.
+- **Medal threshold.** Getting at least 5 of the 10 picks correct
+  clears the threshold and earns the stage's diamond coin.
+- **P(>=5).** The model's estimated probability that the chosen
+  ticket gets at least 5 picks correct. The optimizer maximizes this
+  by default.
+- **EV (expected value).** Average HLTV-scoring points the ticket
+  would earn across all simulated brackets. HLTV scoring is
+  5 / 5 / 2 points per correct 3-0 / 0-3 / advance pick (max 32).
+
+### Rating systems and signals
+
+- **HLTV world rank.** HLTV's official 1-N team ranking. Hand-curated
+  by HLTV editors using results, head-to-head, lineup stability, and
+  similar inputs. Updated weekly.
+- **VRS (Valve Regional Standings).** Valve's own algorithmic team
+  ranking, published as a points score (typically 0-2500, higher is
+  better) plus a regional position. Used to allocate Major invites
+  and to seed Major stages. The model uses both the global VRS
+  position and the latest VRS points.
+- **VRS forecast.** Block on each HLTV match payload showing how
+  many points each side would gain/lose under several outcomes.
+  Treated here as HLTV's own implied win-probability signal.
+- **Rating 3.0.** HLTV's per-player performance rating (typical
+  range 0.80-1.40). Combines K/D, multikills, KAST, ADR, opening
+  duels, and impact rounds.
+- **Rating trend.** "Rising" / "Falling" / "Stable" flag on each
+  player's stats block. Comparing the player's recent month to
+  their season average.
+- **3-month rating (`ratingPast3Months`).** The player's Rating 3.0
+  averaged over the last 90 days. More responsive to recent form
+  than the season-long rating.
+- **Firepower, opening, clutching, utility, ...** HLTV's per-player
+  role scores (0-100). Each captures a different aspect of how the
+  player produces value (entry kills, opening duels, 1-vs-N clutches,
+  etc.).
+- **Map pool / map comfort.** Per-team statistics on each active
+  competitive map: win rate, CT/T side balance, how often the team
+  picks vs bans the map. Combined into a "comfort" score during BO3
+  simulation so the veto picks plausibly favorable maps.
+- **H2H (head-to-head).** Direct history between two teams. Smoothed
+  by a Bayesian prior so 2-0 doesn't look like a 100% lock when only
+  two games have been played.
+
+### Modeling
+
+- **Elo.** Rating system that gives every team a score; the gap in
+  scores converts to a win probability via a logistic formula
+  (`P(A wins) = 1 / (1 + 10**((R_B - R_A) / 400))`). Originally from
+  chess; we use it for map-level CS results.
+- **Glicko-style margin multiplier.** Modification to plain Elo that
+  scales each rating update by the score margin. A 16-3 stomp moves
+  Elo more than a 16-14 squeaker. Named after the Glicko system that
+  popularized this idea.
+- **K-factor.** Knob on Elo that controls how fast ratings move.
+  Higher K = faster reaction to new results but more noise. We use
+  K=24 per map.
+- **Bayesian prior.** Default belief assumed in the absence of data.
+  For H2H we start at 50/50 with a prior "weight" of 2 phantom games,
+  so a 2-0 record only nudges the prior to ~67%, not 100%.
+- **Monte Carlo simulation.** Repeated random trials. We simulate
+  the full 16-team Swiss bracket tens of thousands of times, sampling
+  every match outcome from the matchup model, and tally how often
+  each team finished 3-0, 3-1, 3-2, etc.
+- **Marginal probability.** Per-team probability of a given outcome,
+  averaged over all simulations. "Vitality goes 3-0 in 38% of sims"
+  is a marginal.
+- **Joint expectation.** Score of a ticket computed by replaying the
+  saved per-simulation outcomes, not by multiplying marginals. This
+  correctly handles correlations like "two teams that meet in the
+  bracket can't both 3-0."
+- **Cutoff.** Datetime at which the model freezes its inputs. Used
+  to prevent look-ahead leakage when backtesting: no data published
+  after the cutoff feeds the model.
+- **Calibration.** Whether the model's claimed probabilities match
+  reality. A well-calibrated 30% forecast is right 30% of the time.
+- **Backtest.** Re-running the model against historical events whose
+  outcomes are already known, scoring its tickets against actuals.
+- **Baseline.** A trivially simple alternative model used for
+  comparison. We compare against a VRS baseline (top-2 to 3-0, etc.)
+  and a rank baseline.
+- **Blend weight.** Mixing weight between the Elo win probability
+  and a side signal (form / H2H / VRS forecast / map pool). A
+  `vrs_blend=0.12` means the final probability is 88% Elo + 12% VRS.
+- **Carryover.** When a team qualifies from Stage 1 to Stage 2 (or
+  Stage 2 to Stage 3) with a 3-0, 3-1, or 3-2 record, the model
+  treats that record as evidence of strength entering the next
+  stage (a small Elo boost and a form floor).
+
+### Infrastructure
+
+- **`curl_cffi`.** Python HTTP client that impersonates browser TLS
+  fingerprints. Needed because HLTV rejects "plain" Python clients
+  with HTTP 403.
+- **Proxy pool.** Rotating list of HTTP proxies. The client picks
+  one per request, cools down proxies that fail, and falls back to
+  the least-recently-failed proxy under heavy load.
+- **Disk cache.** Local JSON file per HLTV response, keyed on
+  `(method, path, sorted params)`. Each entry has a per-endpoint
+  TTL so live feeds refresh quickly while finished-event data stays
+  cached forever.
+- **Bulk fetch.** `bulk_teams` / `bulk_players` / `bulk_matches`
+  run cache-aware parallel fetches over a thread pool (128 workers
+  when a proxy pool is configured).
+
 ## Install
 
 Requires Python 3.10+.
