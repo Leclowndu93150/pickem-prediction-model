@@ -128,7 +128,7 @@ this repo.
 
 ### Pickem
 
-- **Pickem.** HLTV's prediction game for the Major. Each player
+- **Pickem.** valve's prediction game for the Major. Each player
   submits one ticket per stage.
 - **Ticket.** A set of 10 picks for a stage: 2 teams to go 3-0,
   6 teams to "advance" (finish 3-1 or 3-2), and 2 teams to go 0-3.
