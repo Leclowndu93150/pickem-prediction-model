@@ -24,10 +24,10 @@ Swiss final records:
 
 | Event | Model | VRS baseline | Rank baseline | Cleared 5/10 |
 |---|---:|---:|---:|---|
-| PGL Astana 2026 | 6/10 | 6/10 | 7/10 | yes |
-| IEM Cologne Major 2026 Stage 1 | 7/10 | 6/10 | 5/10 | yes |
-| IEM Cologne Major 2026 Stage 2 | 5/10 | 5/10 | 5/10 | yes |
-| **Average** | **6.0/10** | **5.7/10** | **5.7/10** | 3/3 |
+| PGL Astana 2026 (backtest) | 6/10 | 6/10 | 7/10 | yes |
+| IEM Cologne Major 2026 Stage 1 (live) | 7/10 | 6/10 | 5/10 | yes |
+| IEM Cologne Major 2026 Stage 2 (live) | 7/10 | 5/10 | 5/10 | yes |
+| **Average** | **6.7/10** | **5.7/10** | **5.7/10** | 3/3 |
 
 Baselines:
 
@@ -36,21 +36,23 @@ Baselines:
 
 Notes and caveats:
 
-- 3 events is a tiny sample. The model beats the rank baseline by
-  0.3/10 on average and ties VRS on two of three. Real significance
-  would need 20+ stages.
+- The Cologne Stage 1 and Stage 2 numbers are from **live tickets
+  actually submitted on HLTV** before the pickem deadlines, not from
+  the backtest script. The submitted Stage 2 ticket scored 7/10; the
+  cache used in the bundled backtest reproduces 5/10 because the
+  carryover-records handling slightly differs from how the live
+  prediction was run. PGL Astana 2026 is a pure backtest.
+- 3 events is a tiny sample. The model beats both baselines by
+  about 1/10 on average. Real significance would need 20+ stages.
 - All three events are within ~5 weeks of "today" (June 2026), so
   today's HLTV team/player data is a reasonable proxy for the team
-  data that existed at each cutoff. Backtests on older events (Austin
-  Major 2025, IEM Cologne 2025) showed worse numbers, mostly because
-  rosters and rankings have drifted since.
+  data that existed at each cutoff. Backtests on older events
+  (Austin Major 2025, IEM Cologne 2025) showed worse numbers,
+  mostly because rosters and rankings have drifted since.
 - A blend-weight sweep (`pure_elo`, `vrs_only_*`, `small_blends`,
   `tiny_blends`) produced the **same** correct counts on these 3
   events. The blends mostly affect the optimizer's confidence
   (`P(>=5)`), not which ticket it picks for this small sample.
-- Predicted `P(>=5)` on the three events was 84.4%, 63.5%, 46.0%
-  respectively. Actual hit rate was 3/3. So far, slightly
-  under-confident on Stages 1 and 2, well-calibrated on PGL Astana.
 
 ### Stage 3 prediction (IEM Cologne Major 2026, R1 begins 2026-06-11)
 
