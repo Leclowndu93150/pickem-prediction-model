@@ -8,15 +8,16 @@ dist/
 .venv/
 venv/
 
-# local caches, secrets, and runtime data
-# (the committed cache/ contains seeded snapshots; users without proxies
-# can run the model offline against it. fresh fetches still write here.)
+data/*.sqlite
+data/*.sqlite-*
+data/*.sqlite.gz
 .secrets/
 probe_report.json
 probe_output.log
-prefetch.log
 
-# editor / OS
 .idea/
 .vscode/
 .DS_Store
+
+cache/
+stage2_recalc.log
