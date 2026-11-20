@@ -220,8 +220,12 @@ def parse_event(text, event_id):
         lineup = lineup.split('class="coach-text')[0]
         hltv = re.search(r'class="event-world-rank"[^>]*>#(\d+)<', box[:1500])
         vrs = re.search(r'class="event-vrs-rank"[^>]*>#(\d+)<', box[:1500])
+        logo_box = re.search(r'<div class="logo-box">(.*?)</div>', box, re.S)
+        logos = re.findall(r'<img[^>]*src="([^"]+)"[^>]*class="([^"]+)"(?:[^>]*srcset="([^" ]+))?', logo_box.group(1)) if logo_box else []
+        logos.sort(key=lambda found: "night-only" not in found[1])
         teams.append({
             "id": int(team.group(1)), "name": html.unescape(team.group(2)),
+            "logo": html.unescape(logos[0][2] or logos[0][0]) if logos else None,
             "hltv_rank": int(hltv.group(1)) if hltv else None, "vrs_rank": int(vrs.group(1)) if vrs else None,
             "players": [(int(p), html.unescape(n)) for p, n in re.findall(r'href="/player/(\d+)/[^"]*">([^<]+)<', lineup)],
         })

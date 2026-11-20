@@ -1,6 +1,8 @@
 # PGL Major Singapore 2026 Stage 1: Pick'Em forecast
 
-Generated 2026-11-20 00:32 UTC from match data up to 2026-11-20 00:31 UTC. 100,000 simulated stages; 0 round(s) already played.
+![PGL Major Singapore 2026 Stage 1 Pick'Em board](pgl-major-singapore-2026-stage-1.png)
+
+Generated 2026-11-20 00:51 UTC from matches up to 2026-11-19. 200,000 simulated stages; 0 round(s) already played.
 
 ## Picks
 
@@ -10,26 +12,26 @@ Generated 2026-11-20 00:32 UTC from match data up to 2026-11-20 00:31 UTC. 100,0
 | Advance (3-1 or 3-2) | Ninjas in Pyjamas, PARIVISION, HEROIC, Liquid, Eternal Fire, 9z |
 | 0-3 | Wildcard, Chinggis Warriors |
 
-The model gives these picks a 41% chance of 5 or more correct (expected 4.21 of 10). Picking straight down the seeding gets 35% (expected 4.00) under the same simulations.
+The model gives these picks a 41% chance of 5 or more correct (expected 4.20 of 10). Picking straight down the seeding gets 35% (expected 4.02) under the same simulations.
 
 ## Odds by team
 
 | Seed | Team | 3-0 | 3-1 | 3-2 | Advance | 2-3 | 1-3 | 0-3 |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|
-| 4 | FaZe | 27% | 28% | 21% | **76%** | 14% | 8% | 2% |
-| 2 | PARIVISION | 23% | 30% | 22% | **75%** | 14% | 8% | 3% |
+| 4 | FaZe | 26% | 28% | 21% | **75%** | 14% | 8% | 2% |
+| 2 | PARIVISION | 24% | 30% | 22% | **75%** | 14% | 8% | 3% |
 | 7 | 100 Thieves | 24% | 28% | 21% | **73%** | 15% | 9% | 2% |
-| 5 | Liquid | 21% | 28% | 23% | **72%** | 15% | 10% | 3% |
-| 1 | Ninjas in Pyjamas | 22% | 28% | 22% | **72%** | 16% | 9% | 3% |
-| 3 | HEROIC | 22% | 27% | 22% | **71%** | 16% | 10% | 3% |
+| 1 | Ninjas in Pyjamas | 23% | 28% | 22% | **72%** | 16% | 9% | 3% |
+| 5 | Liquid | 20% | 28% | 23% | **72%** | 15% | 10% | 3% |
+| 3 | HEROIC | 22% | 27% | 22% | **72%** | 16% | 10% | 3% |
 | 6 | Eternal Fire | 14% | 23% | 23% | **60%** | 20% | 15% | 5% |
-| 8 | 9z | 10% | 19% | 21% | **51%** | 23% | 19% | 7% |
+| 8 | 9z | 11% | 19% | 21% | **51%** | 22% | 19% | 7% |
 | 10 | DENDELE | 8% | 18% | 22% | **48%** | 22% | 20% | 10% |
-| 9 | M80 | 8% | 18% | 21% | **47%** | 22% | 21% | 10% |
-| 13 | BC.Game | 6% | 15% | 20% | **41%** | 22% | 23% | 14% |
-| 14 | FlyQuest | 5% | 12% | 18% | **36%** | 23% | 25% | 16% |
-| 16 | Lynn Vision | 5% | 9% | 15% | **29%** | 23% | 27% | 21% |
-| 11 | Imperial | 4% | 10% | 15% | **29%** | 24% | 29% | 18% |
+| 9 | M80 | 8% | 18% | 21% | **46%** | 22% | 21% | 10% |
+| 13 | BC.Game | 6% | 14% | 20% | **41%** | 22% | 23% | 14% |
+| 14 | FlyQuest | 6% | 13% | 18% | **36%** | 23% | 25% | 16% |
+| 16 | Lynn Vision | 4% | 9% | 15% | **29%** | 22% | 27% | 21% |
+| 11 | Imperial | 4% | 10% | 15% | **29%** | 24% | 29% | 19% |
 | 12 | Wildcard | 1% | 4% | 8% | **14%** | 19% | 34% | 33% |
 | 15 | Chinggis Warriors | 1% | 2% | 4% | **6%** | 13% | 32% | 49% |
 
@@ -37,13 +39,13 @@ The model gives these picks a 41% chance of 5 or more correct (expected 4.21 of 
 
 | Match | Win chance |
 |---|---|
-| HEROIC vs Imperial | 67% / 33% |
+| HEROIC vs Imperial | 68% / 32% |
 | 9z vs Lynn Vision | 59% / 41% |
-| Ninjas in Pyjamas vs M80 | 60% / 40% |
+| Ninjas in Pyjamas vs M80 | 61% / 39% |
 | 100 Thieves vs Chinggis Warriors | 83% / 17% |
 | Liquid vs BC.Game | 64% / 36% |
-| PARIVISION vs DENDELE | 60% / 40% |
-| FaZe vs Wildcard | 80% / 20% |
+| PARIVISION vs DENDELE | 61% / 39% |
+| FaZe vs Wildcard | 79% / 21% |
 | Eternal Fire vs FlyQuest | 59% / 41% |
 
 ## Lineups used

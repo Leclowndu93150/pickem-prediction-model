@@ -6,7 +6,9 @@ The model rates every player from recent matches, builds each team from the five
 
 ## Current forecast: PGL Major Singapore 2026, Stage 1
 
-Made on 2026-11-20 with matches up to 2026-11-19. Stage 1 starts on 2026-11-24. Full output: [`predictions/pgl-major-singapore-2026-stage-1.md`](predictions/pgl-major-singapore-2026-stage-1.md).
+![PGL Major Singapore 2026 Stage 1 Pick'Em board](predictions/pgl-major-singapore-2026-stage-1.png)
+
+Made on 2026-11-20 with matches up to 2026-11-19. Stage 1 starts on 2026-11-24. The numbers under the picks are the model's chance of that exact outcome; the pairs in the 0-0 box are win chances for the opening best-of-ones. Full output: [`predictions/pgl-major-singapore-2026-stage-1.md`](predictions/pgl-major-singapore-2026-stage-1.md).
 
 | Slot | Teams |
 |---|---|
@@ -18,20 +20,20 @@ The model gives this ticket a 41% chance of five or more correct, and expects 4.
 
 | Seed | Team | 3-0 | 3-1 | 3-2 | Advance | 2-3 | 1-3 | 0-3 |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|
-| 4 | FaZe | 27% | 28% | 21% | **76%** | 14% | 8% | 2% |
-| 2 | PARIVISION | 23% | 30% | 22% | **75%** | 14% | 8% | 3% |
+| 4 | FaZe | 26% | 28% | 21% | **75%** | 14% | 8% | 2% |
+| 2 | PARIVISION | 24% | 30% | 22% | **75%** | 14% | 8% | 3% |
 | 7 | 100 Thieves | 24% | 28% | 21% | **73%** | 15% | 9% | 2% |
-| 5 | Liquid | 21% | 28% | 23% | **72%** | 15% | 10% | 3% |
-| 1 | Ninjas in Pyjamas | 22% | 28% | 22% | **72%** | 16% | 9% | 3% |
-| 3 | HEROIC | 22% | 27% | 22% | **71%** | 16% | 10% | 3% |
+| 1 | Ninjas in Pyjamas | 23% | 28% | 22% | **72%** | 16% | 9% | 3% |
+| 5 | Liquid | 20% | 28% | 23% | **72%** | 15% | 10% | 3% |
+| 3 | HEROIC | 22% | 27% | 22% | **72%** | 16% | 10% | 3% |
 | 6 | Eternal Fire | 14% | 23% | 23% | **60%** | 20% | 15% | 5% |
-| 8 | 9z | 10% | 19% | 21% | **51%** | 23% | 19% | 7% |
+| 8 | 9z | 11% | 19% | 21% | **51%** | 22% | 19% | 7% |
 | 10 | DENDELE | 8% | 18% | 22% | **48%** | 22% | 20% | 10% |
-| 9 | M80 | 8% | 18% | 21% | **47%** | 22% | 21% | 10% |
-| 13 | BC.Game | 6% | 15% | 20% | **41%** | 22% | 23% | 14% |
-| 14 | FlyQuest | 5% | 12% | 18% | **36%** | 23% | 25% | 16% |
-| 16 | Lynn Vision | 5% | 9% | 15% | **29%** | 23% | 27% | 21% |
-| 11 | Imperial | 4% | 10% | 15% | **29%** | 24% | 29% | 18% |
+| 9 | M80 | 8% | 18% | 21% | **46%** | 22% | 21% | 10% |
+| 13 | BC.Game | 6% | 14% | 20% | **41%** | 22% | 23% | 14% |
+| 14 | FlyQuest | 6% | 13% | 18% | **36%** | 23% | 25% | 16% |
+| 16 | Lynn Vision | 4% | 9% | 15% | **29%** | 22% | 27% | 21% |
+| 11 | Imperial | 4% | 10% | 15% | **29%** | 24% | 29% | 19% |
 | 12 | Wildcard | 1% | 4% | 8% | **14%** | 19% | 34% | 33% |
 | 15 | Chinggis Warriors | 1% | 2% | 4% | **6%** | 13% | 32% | 49% |
 
@@ -210,7 +212,14 @@ python -m pickem.predict --event 8302 --update
 python -m pickem.predict --event 8302 --playoffs --update
 ```
 
-Run it again during a stage and it keeps the results so far and simulates the rest. Output goes to `predictions/` as Markdown and JSON; `--json` prints the JSON instead.
+Run it again during a stage and it keeps the results so far and simulates the rest. Output goes to `predictions/` as Markdown, JSON and a board image; `--json` prints the JSON instead.
+
+The image is drawn in the layout of the in-game Pick'Em board: record boxes with the matches known so far, the ticket in the 3-0, advance and 0-3 slots, eliminated teams as they drop out, and a tick or cross on each pick once it is decided. Colours come from a theme, chosen from the event name or with `--theme`; add one to `THEMES` in `pickem/board.py` for a new Major. Team logos are downloaded from HLTV when the image is drawn.
+
+```bash
+# redraw a saved forecast, here in the neutral theme
+python -m pickem.board predictions/pgl-major-singapore-2026-stage-1.json --theme default --out board.png
+```
 
 ```bash
 # out-of-sample series test, Swiss stage backtest, a Major with official seeds
@@ -275,6 +284,8 @@ pickem/
   bracket.py      playoff bracket picks
   model.py        rankings, map pool, team assembly
   predict.py      forecast command
+  board.py        Pick'Em board image and themes
+  assets/         Saira typeface (SIL Open Font License)
   backtest.py     series, stage and pairing tests
   realism.py      engine against real matches and demos
   api.py          FastAPI service

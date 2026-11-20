@@ -5,6 +5,7 @@ from pathlib import Path
 
 from . import picks as picking
 from . import web
+from .board import THEMES, render
 from .bracket import bracket
 from .calibration import adjust_tables
 from .engine import Engine
@@ -56,18 +57,29 @@ def forecast_stage(db, event, stage, cutoff, sims, pair_sims, goal, seed):
     vrs = [rankings.points("vrs", team_id, cutoff) for team_id in order]
     result = stage_forecast(engine, teams, pool, rounds, all_bo3, sims, pair_sims, goal, seed, adjust=lambda best_of, table: adjust_tables(best_of, table, vrs))
     names = [stage["teams"].get(team_id) or str(team_id) for team_id in order]
+    logos = {team["id"]: team["logo"] for team in event["teams"]}
     baseline = picking.evaluate(result["wins"], result["losses"], picking.seed_picks(list(range(16))), goal)
     rows = []
     for i, team_id in enumerate(order):
         rows.append({
-            "seed": i + 1, "team_id": team_id, "team": names[i], "odds": result["odds"][i], "vrs_points": vrs[i],
+            "seed": i + 1, "team_id": team_id, "team": names[i], "logo": logos.get(team_id), "odds": result["odds"][i], "vrs_points": vrs[i],
             "hltv_rank": rankings.rank("hltv", team_id, cutoff), "rated_players": teams[i]["known"],
             "strength": round(sum(ratings.overall(p) or 9.0 for p in lineups[team_id]) / 5 * 5, 1),
             "lineup": [data.nick(p) for p in lineups[team_id]],
         })
     choice = result["picks"]
+    listed = []
+    for match in stage["matches"]:
+        best_of = 3 if all_bo3 or 2 in match["record"] else 1
+        a, b = index[match["a"]], index[match["b"]]
+        listed.append({
+            "record": list(match["record"]), "a": names[a], "b": names[b], "best_of": best_of, "p_a": float(result["tables"][best_of][a][b]),
+            "winner": names[index[match["winner"]]] if match["winner"] is not None else None,
+        })
     return {
         "event": event["name"], "stage": stage["name"], "event_id": event["id"], "generated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+        "stage_number": event["stages"].index(stage) + 1, "stage_count": len(event["stages"]), "matches": listed,
+        "last_match": datetime.fromtimestamp(max(m["start"] for m in data.matches if m["start"] < cutoff), timezone.utc).strftime("%Y-%m-%d"),
         "data_until": datetime.fromtimestamp(cutoff, timezone.utc).strftime("%Y-%m-%d %H:%M UTC"), "map_pool": pool, "all_bo3": all_bo3,
         "sims": sims, "pair_sims": pair_sims, "goal": goal, "rounds_played": sum(1 for r in rounds if r and all(w >= 0 for _, _, w in r)),
         "teams": rows,
@@ -110,9 +122,11 @@ def percent(value):
     return f"{100 * value:.0f}%"
 
 
-def stage_markdown(result):
+def stage_markdown(result, image=None):
     lines = [f"# {result['stage']}: Pick'Em forecast", ""]
-    lines.append(f"Generated {result['generated']} from match data up to {result['data_until']}. "
+    if image:
+        lines += [f"![{result['stage']} Pick'Em board]({image})", ""]
+    lines.append(f"Generated {result['generated']} from matches up to {result['last_match']}. "
                  f"{result['sims']:,} simulated stages; {result['rounds_played']} round(s) already played.")
     lines += ["", "## Picks", "", "| Slot | Teams |", "|---|---|"]
     picks = result["picks"]
@@ -167,7 +181,8 @@ def predict_event(event_id, stage=None, playoffs=False, refresh=False, cutoff=No
     chosen = choose_stage(event, stage)
     result = forecast_stage(db, event, chosen, moment, sims, pair_sims, goal, seed)
     unnumbered = len(event["stages"]) > 1 and "stage" not in chosen["name"].lower()
-    return result, stage_markdown(result), slug(chosen["name"]) + (f"-stage-{event['stages'].index(chosen) + 1}" if unnumbered else "")
+    name = slug(chosen["name"]) + (f"-stage-{event['stages'].index(chosen) + 1}" if unnumbered else "")
+    return result, stage_markdown(result, f"{name}.png"), name
 
 
 def main():
@@ -182,6 +197,7 @@ def main():
     parser.add_argument("--goal", type=int, default=5)
     parser.add_argument("--seed", type=int, default=1)
     parser.add_argument("--json", action="store_true")
+    parser.add_argument("--theme", choices=sorted(THEMES))
     parser.add_argument("--no-save", action="store_true")
     args = parser.parse_args()
     result, text, name = predict_event(args.event, args.stage, args.playoffs, args.update, args.cutoff, args.sims, args.pair_sims, args.goal, args.seed)
@@ -190,6 +206,8 @@ def main():
         OUTPUT.mkdir(exist_ok=True)
         (OUTPUT / f"{name}.md").write_text(text, encoding="utf-8")
         (OUTPUT / f"{name}.json").write_text(json.dumps(result, indent=1), encoding="utf-8")
+        if not args.playoffs:
+            render(result, args.theme).save(OUTPUT / f"{name}.png", optimize=True)
 
 
 if __name__ == "__main__":
